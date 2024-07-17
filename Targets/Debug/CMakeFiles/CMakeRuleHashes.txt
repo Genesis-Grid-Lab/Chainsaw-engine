@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+62466ffbb0b8c666f1eb7c1e05c65751 vendor/raylib/CMakeFiles/uninstall
+b3a2342f01140f3adfd695eabc4b024e vendor/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings
+fcefadcd024684ddbca63f9900711304 vendor/raylib/raylib/external/glfw/src/fractional-scale-v1-client-protocol-code.h
+70075cb90d39c5ce71cc255cdaf380b7 vendor/raylib/raylib/external/glfw/src/fractional-scale-v1-client-protocol.h
+649424e43c1d2e2d1628aaf4c163e97b vendor/raylib/raylib/external/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h
+10c5e95cbfc80a2018e47d70de492893 vendor/raylib/raylib/external/glfw/src/idle-inhibit-unstable-v1-client-protocol.h
+9cd8c20edc6264ca0b7f590b811e6107 vendor/raylib/raylib/external/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h
+d28d5cbe6a0a0f93f2d679ea928379c7 vendor/raylib/raylib/external/glfw/src/pointer-constraints-unstable-v1-client-protocol.h
+896a6bb704d5fd38ec16b0c9a71d916c vendor/raylib/raylib/external/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h
+94a2155f1c3f65785fbf3e665b93f480 vendor/raylib/raylib/external/glfw/src/relative-pointer-unstable-v1-client-protocol.h
+a4bc93f8e1d1dd353aea08d03d538bb4 vendor/raylib/raylib/external/glfw/src/viewporter-client-protocol-code.h
+b592bd2acb3997770cc45f06d523eca9 vendor/raylib/raylib/external/glfw/src/viewporter-client-protocol.h
+81990ad958d86405a92d38faab175977 vendor/raylib/raylib/external/glfw/src/wayland-client-protocol-code.h
+5fca9cebc1a7080d6c0d49db6d4a8a3b vendor/raylib/raylib/external/glfw/src/wayland-client-protocol.h
+c7b1ee4259af20fc32048765cad500ca vendor/raylib/raylib/external/glfw/src/xdg-activation-v1-client-protocol-code.h
+45fb973e0b677e058038fbfbdd73beb7 vendor/raylib/raylib/external/glfw/src/xdg-activation-v1-client-protocol.h
+4c1bb32330a99d738f74eef0695da82c vendor/raylib/raylib/external/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h
+c4717c93d34550052a97ee4090395f14 vendor/raylib/raylib/external/glfw/src/xdg-decoration-unstable-v1-client-protocol.h
+e548464e9ac956e6216b01e77aeea9a5 vendor/raylib/raylib/external/glfw/src/xdg-shell-client-protocol-code.h
+2287f68e1a657ea77fce21be140e7848 vendor/raylib/raylib/external/glfw/src/xdg-shell-client-protocol.h

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libEngine.a CMakeFiles/Engine.dir/src/ChainSaw.cpp.o
+/usr/bin/ranlib ../lib/libEngine.a

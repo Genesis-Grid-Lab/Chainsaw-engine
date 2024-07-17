@@ -1,0 +1,212 @@
+[
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -isystem /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/rcore.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rcore.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rcore.c",
+  "output": "vendor/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -isystem /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/rmodels.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rmodels.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rmodels.c",
+  "output": "vendor/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -isystem /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/rshapes.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rshapes.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rshapes.c",
+  "output": "vendor/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -isystem /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/rtext.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rtext.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rtext.c",
+  "output": "vendor/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -isystem /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/rtextures.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rtextures.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rtextures.c",
+  "output": "vendor/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -isystem /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/utils.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/utils.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/utils.c",
+  "output": "vendor/raylib/raylib/CMakeFiles/raylib.dir/utils.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -isystem /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles/raylib.dir/raudio.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/raudio.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/raudio.c",
+  "output": "vendor/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/context.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/context.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/init.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/init.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/init.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/input.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/input.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/input.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/monitor.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/monitor.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/monitor.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/platform.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/platform.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/platform.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/vulkan.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/vulkan.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/window.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/window.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/window.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/egl_context.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/egl_context.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/osmesa_context.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/osmesa_context.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_init.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/null_init.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/null_init.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_monitor.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/null_monitor.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/null_monitor.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_window.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/null_window.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/null_window.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_joystick.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/null_joystick.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/null_joystick.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_module.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/posix_module.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/posix_module.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/posix_time.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/posix_time.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/posix_thread.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/posix_thread.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/x11_init.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/x11_init.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/x11_monitor.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/x11_monitor.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/x11_window.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/x11_window.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/xkb_unicode.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/xkb_unicode.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/glx_context.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/glx_context.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_init.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/wl_init.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/wl_init.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_monitor.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/wl_monitor.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/wl_monitor.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_window.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/wl_window.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/wl_window.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/linux_joystick.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/linux_joystick.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src -I/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_poll.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/posix_poll.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/src/posix_poll.c",
+  "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Engine",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DEngine_EXPORTS -DGEN_EXPORT -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -g -std=gnu++17 -fPIC -o CMakeFiles/Engine.dir/src/ChainSaw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
+  "output": "Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/src/Editor.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o"
+}
+]
