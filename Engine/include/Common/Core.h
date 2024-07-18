@@ -17,7 +17,11 @@
 #include <iostream>
 
 // Raylib
+#include "entt/entity/fwd.hpp"
 #include "raylib.h"
+
+// entt
+#include "entt/entt.hpp"
 
 #define SCRNWIDTH 1280
 #define SCRNHEIGHT 720
@@ -47,11 +51,27 @@
 // core features
 namespace CSE
 {
+    // entity identifier
+    using EntityID = entt::entity;
+    //null entity
+    constexpr EntityID NENTT = entt::null;
+    //entoty registry
+    using EntityRegistry = entt::registry;
+
     // runtime type
     template<typename T>
     CSE_INLINE constexpr uint32_t TypeID()
     {
         return static_cast<uint32_t>(reinterpret_cast<std::uintptr_t>(&typeid(T)));
+    }
+
+    // generate random 64 bit
+    CSE_INLINE uint64_t RandomU64()
+    {
+        static std::random_device device;
+        static std::mt19937_64 generator(device());
+        static std::uniform_int_distribution<uint64_t> distribution;
+        return distribution(generator);
     }
 }
 

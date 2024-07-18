@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "../lib/libEngine.a"
+  "../bin/libEngine.so"
   "../lib/libEngine.pdb"
   "CMakeFiles/Engine.dir/src/ChainSaw.cpp.o"
   "CMakeFiles/Engine.dir/src/ChainSaw.cpp.o.d"

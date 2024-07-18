@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "includePath": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/vendor/raylib/src",
+        "/home/nesmy/Playground/CardGame/vendor/SDL2/include",
+        "${workspaceFolder}/vendor/raylib-cpp/include",
+        "/home/nesmy/Playground/CardGame/vendor/SDL_image/include"
+      ],
+      "configurationProvider": "ms-vscode.cmake-tools",
+      "defines": [],
+      "intelliSenseMode": "${default}",
+      "cppStandard": "c++17",
+      "cStandard": "c17",
+      "name": "cpp-dev"
+    }
+  ],
+  "version": 4
+}

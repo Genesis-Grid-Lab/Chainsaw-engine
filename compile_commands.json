@@ -199,13 +199,13 @@
 },
 {
   "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Engine",
-  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DEngine_EXPORTS -DGEN_EXPORT -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -g -std=gnu++17 -fPIC -o CMakeFiles/Engine.dir/src/ChainSaw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DEngine_EXPORTS -DGEN_EXPORT -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -g -std=gnu++17 -fPIC -o CMakeFiles/Engine.dir/src/ChainSaw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
   "file": "/home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
   "output": "Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o"
 },
 {
   "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
-  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/src/Editor.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/src/Editor.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
   "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
   "output": "Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o"
 }

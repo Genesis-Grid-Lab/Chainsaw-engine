@@ -69,10 +69,122 @@ include Editor/CMakeFiles/ChainSaw.dir/progress.make
 # Include the compile flags for this target's objects.
 include Editor/CMakeFiles/ChainSaw.dir/flags.make
 
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o: Editor/CMakeFiles/ChainSaw.dir/flags.make
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o: /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui.cpp
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o: Editor/CMakeFiles/ChainSaw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o -MF CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o.d -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui.cpp
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.i"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui.cpp > CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.i
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.s"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui.cpp -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.s
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o: Editor/CMakeFiles/ChainSaw.dir/flags.make
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o: /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_demo.cpp
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o: Editor/CMakeFiles/ChainSaw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o -MF CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o.d -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_demo.cpp
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.i"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_demo.cpp > CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.i
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.s"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_demo.cpp -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.s
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o: Editor/CMakeFiles/ChainSaw.dir/flags.make
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o: /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_draw.cpp
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o: Editor/CMakeFiles/ChainSaw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o -MF CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o.d -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_draw.cpp
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.i"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_draw.cpp > CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.i
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.s"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_draw.cpp -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.s
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o: Editor/CMakeFiles/ChainSaw.dir/flags.make
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o: /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.cpp
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o: Editor/CMakeFiles/ChainSaw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.cpp
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.i"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.cpp > CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.i
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.s"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.cpp -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.s
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o: Editor/CMakeFiles/ChainSaw.dir/flags.make
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o: /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3.cpp
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o: Editor/CMakeFiles/ChainSaw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3.cpp
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.i"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3.cpp > CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.i
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.s"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.s
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o: Editor/CMakeFiles/ChainSaw.dir/flags.make
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o: /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_tables.cpp
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o: Editor/CMakeFiles/ChainSaw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o -MF CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o.d -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_tables.cpp
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.i"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_tables.cpp > CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.i
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.s"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_tables.cpp -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.s
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o: Editor/CMakeFiles/ChainSaw.dir/flags.make
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o: /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_widgets.cpp
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o: Editor/CMakeFiles/ChainSaw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o -MF CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_widgets.cpp
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.i"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_widgets.cpp > CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.i
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.s"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_widgets.cpp -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.s
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o: Editor/CMakeFiles/ChainSaw.dir/flags.make
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o: /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/rlImGui.cpp
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o: Editor/CMakeFiles/ChainSaw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o -MF CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o.d -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/rlImGui.cpp
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.i"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/rlImGui.cpp > CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.i
+
+Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.s"
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/rlImGui.cpp -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.s
+
 Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: Editor/CMakeFiles/ChainSaw.dir/flags.make
 Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp
 Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: Editor/CMakeFiles/ChainSaw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o"
 	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o -MF CMakeFiles/ChainSaw.dir/src/Editor.cpp.o.d -o CMakeFiles/ChainSaw.dir/src/Editor.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp
 
 Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.i: cmake_force
@@ -85,16 +197,38 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.s: cmake_force
 
 # Object files for target ChainSaw
 ChainSaw_OBJECTS = \
+"CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o" \
+"CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o" \
 "CMakeFiles/ChainSaw.dir/src/Editor.cpp.o"
 
 # External object files for target ChainSaw
 ChainSaw_EXTERNAL_OBJECTS =
 
+bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o
+bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o
+bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o
+bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o
+bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o
+bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o
+bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o
+bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o
 bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o
 bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/build.make
-bin/ChainSaw: lib/libEngine.a
+bin/ChainSaw: bin/libEngine.so
+bin/ChainSaw: lib/libraylib.a
+bin/ChainSaw: /usr/lib/libOpenGL.so
+bin/ChainSaw: /usr/lib/libGLX.so
+bin/ChainSaw: /usr/lib/libGLU.so
+bin/ChainSaw: /usr/lib/librt.a
+bin/ChainSaw: /usr/lib/libm.so
 bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/ChainSaw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../bin/ChainSaw"
 	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ChainSaw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

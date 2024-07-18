@@ -199,13 +199,61 @@
 },
 {
   "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Engine",
-  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -g -std=gnu++17 -o CMakeFiles/Engine.dir/src/ChainSaw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DEngine_EXPORTS -DGEN_EXPORT -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -g -std=gnu++17 -fPIC -o CMakeFiles/Engine.dir/src/ChainSaw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
   "file": "/home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
   "output": "Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o"
 },
 {
   "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
-  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/src/Editor.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_demo.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_demo.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_draw.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_draw.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_tables.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_tables.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_widgets.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_widgets.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/rlImGui.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/rlImGui.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/src/Editor.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
   "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
   "output": "Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o"
 }

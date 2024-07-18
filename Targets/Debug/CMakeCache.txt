@@ -426,6 +426,15 @@ GLFW_LIBRARY_TYPE:STRING=OBJECT
 //Value Computed by CMake
 GLFW_SOURCE_DIR:STATIC=/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw
 
+//Value Computed by CMake
+Game_BINARY_DIR:STATIC=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Game
+
+//Value Computed by CMake
+Game_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Game_SOURCE_DIR:STATIC=/home/nesmy/Playground/Chainsaw-engine/Game
+
 //Include everything disabled by default (for CI usage
 INCLUDE_EVERYTHING:BOOL=OFF
 

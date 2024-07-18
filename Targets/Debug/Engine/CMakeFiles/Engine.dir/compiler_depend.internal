@@ -6,11 +6,158 @@ Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o
  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Application.h
  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Context.h
  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Interface.h
+ /home/nesmy/Playground/Chainsaw-engine/Engine/include/Auxiliaries/Assets.h
+ /home/nesmy/Playground/Chainsaw-engine/Engine/include/Auxiliaries/ECS.h
  /home/nesmy/Playground/Chainsaw-engine/Engine/include/ChainSaw.h
  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Common/Core.h
  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Common/Event.h
  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Graphics/Renderer.h
+ /home/nesmy/Playground/Chainsaw-engine/Engine/include/Graphics/Utilities/Data.h
  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Window/Window.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/macro.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/version.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/bit.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/compressed_pair.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/memory.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_traits.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_map.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_set.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/table.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/attribute.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/algorithm.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/any.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/attribute.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/bit.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/compressed_pair.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/enum.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/family.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/hashed_string.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/ident.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/memory.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/monostate.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/ranges.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/tuple.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_info.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_traits.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/macro.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/version.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_map.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/algorithm.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/any.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/bit.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/memory.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_info.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_traits.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_map.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_set.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/compressed_pair.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/graph/adjacency_matrix.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/graph/flow.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/graph/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_traits.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/delegate.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/sigh.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/component.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/entity.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/group.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/handle.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/helper.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/mixin.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/observer.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/organizer.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/ranges.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/registry.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/runtime_view.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/snapshot.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/sparse_set.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/storage.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/view.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entt.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/graph/adjacency_matrix.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/graph/dot.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/graph/flow.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/graph/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/locator/locator.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_map.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_set.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/any.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/attribute.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/bit.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/enum.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_info.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_traits.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/locator/locator.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/adl_pointer.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/container.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/context.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/factory.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/meta.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/node.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/pointer.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/policy.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/range.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/resolve.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/template.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/type_traits.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/utility.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/any.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_info.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_traits.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/poly/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/poly/poly.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/compressed_pair.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/process/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/process/process.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/process/scheduler.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_map.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/compressed_pair.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/resource/cache.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/resource/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/resource/loader.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/resource/resource.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_map.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/compressed_pair.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_info.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/delegate.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/dispatcher.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/emitter.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/fwd.hpp
+ /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/sigh.hpp
  /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/raylib.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -131,6 +278,7 @@ Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o
  /usr/include/c++/14.1.1/bits/invoke.h
  /usr/include/c++/14.1.1/bits/ios_base.h
  /usr/include/c++/14.1.1/bits/istream.tcc
+ /usr/include/c++/14.1.1/bits/list.tcc
  /usr/include/c++/14.1.1/bits/locale_classes.h
  /usr/include/c++/14.1.1/bits/locale_classes.tcc
  /usr/include/c++/14.1.1/bits/locale_conv.h
@@ -174,13 +322,21 @@ Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o
  /usr/include/c++/14.1.1/bits/stl_iterator.h
  /usr/include/c++/14.1.1/bits/stl_iterator_base_funcs.h
  /usr/include/c++/14.1.1/bits/stl_iterator_base_types.h
+ /usr/include/c++/14.1.1/bits/stl_list.h
+ /usr/include/c++/14.1.1/bits/stl_map.h
+ /usr/include/c++/14.1.1/bits/stl_multimap.h
+ /usr/include/c++/14.1.1/bits/stl_multiset.h
  /usr/include/c++/14.1.1/bits/stl_numeric.h
  /usr/include/c++/14.1.1/bits/stl_pair.h
  /usr/include/c++/14.1.1/bits/stl_queue.h
  /usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h
+ /usr/include/c++/14.1.1/bits/stl_relops.h
+ /usr/include/c++/14.1.1/bits/stl_set.h
  /usr/include/c++/14.1.1/bits/stl_tempbuf.h
+ /usr/include/c++/14.1.1/bits/stl_tree.h
  /usr/include/c++/14.1.1/bits/stl_uninitialized.h
  /usr/include/c++/14.1.1/bits/stl_vector.h
+ /usr/include/c++/14.1.1/bits/stream_iterator.h
  /usr/include/c++/14.1.1/bits/streambuf.tcc
  /usr/include/c++/14.1.1/bits/streambuf_iterator.h
  /usr/include/c++/14.1.1/bits/string_view.tcc
@@ -188,12 +344,14 @@ Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o
  /usr/include/c++/14.1.1/bits/uniform_int_dist.h
  /usr/include/c++/14.1.1/bits/unique_ptr.h
  /usr/include/c++/14.1.1/bits/unordered_map.h
+ /usr/include/c++/14.1.1/bits/unordered_set.h
  /usr/include/c++/14.1.1/bits/uses_allocator.h
  /usr/include/c++/14.1.1/bits/uses_allocator_args.h
  /usr/include/c++/14.1.1/bits/utility.h
  /usr/include/c++/14.1.1/bits/vector.tcc
  /usr/include/c++/14.1.1/bits/version.h
  /usr/include/c++/14.1.1/bitset
+ /usr/include/c++/14.1.1/cassert
  /usr/include/c++/14.1.1/cctype
  /usr/include/c++/14.1.1/cerrno
  /usr/include/c++/14.1.1/clocale
@@ -228,8 +386,11 @@ Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o
  /usr/include/c++/14.1.1/iosfwd
  /usr/include/c++/14.1.1/iostream
  /usr/include/c++/14.1.1/istream
+ /usr/include/c++/14.1.1/iterator
  /usr/include/c++/14.1.1/limits
+ /usr/include/c++/14.1.1/list
  /usr/include/c++/14.1.1/locale
+ /usr/include/c++/14.1.1/map
  /usr/include/c++/14.1.1/memory
  /usr/include/c++/14.1.1/new
  /usr/include/c++/14.1.1/numeric
@@ -242,6 +403,7 @@ Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o
  /usr/include/c++/14.1.1/queue
  /usr/include/c++/14.1.1/random
  /usr/include/c++/14.1.1/ratio
+ /usr/include/c++/14.1.1/set
  /usr/include/c++/14.1.1/sstream
  /usr/include/c++/14.1.1/stdexcept
  /usr/include/c++/14.1.1/streambuf
@@ -264,7 +426,10 @@ Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o
  /usr/include/c++/14.1.1/type_traits
  /usr/include/c++/14.1.1/typeinfo
  /usr/include/c++/14.1.1/unordered_map
+ /usr/include/c++/14.1.1/unordered_set
+ /usr/include/c++/14.1.1/utility
  /usr/include/c++/14.1.1/vector
+ /usr/include/c++/14.1.1/version
  /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h
  /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/basic_file.h
  /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h

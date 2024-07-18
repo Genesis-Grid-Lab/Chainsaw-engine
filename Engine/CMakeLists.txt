@@ -16,6 +16,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_SOURCE_DIR}/vendor/raylib/src
     ${CMAKE_SOURCE_DIR}/vendor/raylib-cpp/include
+    ${CMAKE_SOURCE_DIR}/vendor/entt/src
 )
 
 #link directories

@@ -195,6 +195,198 @@ ChainSaw/fast:
 	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/build
 .PHONY : ChainSaw/fast
 
+include/Vendors/imgui/imgui.o: include/Vendors/imgui/imgui.cpp.o
+.PHONY : include/Vendors/imgui/imgui.o
+
+# target to build an object file
+include/Vendors/imgui/imgui.cpp.o:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o
+.PHONY : include/Vendors/imgui/imgui.cpp.o
+
+include/Vendors/imgui/imgui.i: include/Vendors/imgui/imgui.cpp.i
+.PHONY : include/Vendors/imgui/imgui.i
+
+# target to preprocess a source file
+include/Vendors/imgui/imgui.cpp.i:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.i
+.PHONY : include/Vendors/imgui/imgui.cpp.i
+
+include/Vendors/imgui/imgui.s: include/Vendors/imgui/imgui.cpp.s
+.PHONY : include/Vendors/imgui/imgui.s
+
+# target to generate assembly for a file
+include/Vendors/imgui/imgui.cpp.s:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.s
+.PHONY : include/Vendors/imgui/imgui.cpp.s
+
+include/Vendors/imgui/imgui_demo.o: include/Vendors/imgui/imgui_demo.cpp.o
+.PHONY : include/Vendors/imgui/imgui_demo.o
+
+# target to build an object file
+include/Vendors/imgui/imgui_demo.cpp.o:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o
+.PHONY : include/Vendors/imgui/imgui_demo.cpp.o
+
+include/Vendors/imgui/imgui_demo.i: include/Vendors/imgui/imgui_demo.cpp.i
+.PHONY : include/Vendors/imgui/imgui_demo.i
+
+# target to preprocess a source file
+include/Vendors/imgui/imgui_demo.cpp.i:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.i
+.PHONY : include/Vendors/imgui/imgui_demo.cpp.i
+
+include/Vendors/imgui/imgui_demo.s: include/Vendors/imgui/imgui_demo.cpp.s
+.PHONY : include/Vendors/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+include/Vendors/imgui/imgui_demo.cpp.s:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.s
+.PHONY : include/Vendors/imgui/imgui_demo.cpp.s
+
+include/Vendors/imgui/imgui_draw.o: include/Vendors/imgui/imgui_draw.cpp.o
+.PHONY : include/Vendors/imgui/imgui_draw.o
+
+# target to build an object file
+include/Vendors/imgui/imgui_draw.cpp.o:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o
+.PHONY : include/Vendors/imgui/imgui_draw.cpp.o
+
+include/Vendors/imgui/imgui_draw.i: include/Vendors/imgui/imgui_draw.cpp.i
+.PHONY : include/Vendors/imgui/imgui_draw.i
+
+# target to preprocess a source file
+include/Vendors/imgui/imgui_draw.cpp.i:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.i
+.PHONY : include/Vendors/imgui/imgui_draw.cpp.i
+
+include/Vendors/imgui/imgui_draw.s: include/Vendors/imgui/imgui_draw.cpp.s
+.PHONY : include/Vendors/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+include/Vendors/imgui/imgui_draw.cpp.s:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.s
+.PHONY : include/Vendors/imgui/imgui_draw.cpp.s
+
+include/Vendors/imgui/imgui_impl_glfw.o: include/Vendors/imgui/imgui_impl_glfw.cpp.o
+.PHONY : include/Vendors/imgui/imgui_impl_glfw.o
+
+# target to build an object file
+include/Vendors/imgui/imgui_impl_glfw.cpp.o:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o
+.PHONY : include/Vendors/imgui/imgui_impl_glfw.cpp.o
+
+include/Vendors/imgui/imgui_impl_glfw.i: include/Vendors/imgui/imgui_impl_glfw.cpp.i
+.PHONY : include/Vendors/imgui/imgui_impl_glfw.i
+
+# target to preprocess a source file
+include/Vendors/imgui/imgui_impl_glfw.cpp.i:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.i
+.PHONY : include/Vendors/imgui/imgui_impl_glfw.cpp.i
+
+include/Vendors/imgui/imgui_impl_glfw.s: include/Vendors/imgui/imgui_impl_glfw.cpp.s
+.PHONY : include/Vendors/imgui/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+include/Vendors/imgui/imgui_impl_glfw.cpp.s:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.s
+.PHONY : include/Vendors/imgui/imgui_impl_glfw.cpp.s
+
+include/Vendors/imgui/imgui_impl_opengl3.o: include/Vendors/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : include/Vendors/imgui/imgui_impl_opengl3.o
+
+# target to build an object file
+include/Vendors/imgui/imgui_impl_opengl3.cpp.o:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : include/Vendors/imgui/imgui_impl_opengl3.cpp.o
+
+include/Vendors/imgui/imgui_impl_opengl3.i: include/Vendors/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : include/Vendors/imgui/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+include/Vendors/imgui/imgui_impl_opengl3.cpp.i:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : include/Vendors/imgui/imgui_impl_opengl3.cpp.i
+
+include/Vendors/imgui/imgui_impl_opengl3.s: include/Vendors/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : include/Vendors/imgui/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+include/Vendors/imgui/imgui_impl_opengl3.cpp.s:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : include/Vendors/imgui/imgui_impl_opengl3.cpp.s
+
+include/Vendors/imgui/imgui_tables.o: include/Vendors/imgui/imgui_tables.cpp.o
+.PHONY : include/Vendors/imgui/imgui_tables.o
+
+# target to build an object file
+include/Vendors/imgui/imgui_tables.cpp.o:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o
+.PHONY : include/Vendors/imgui/imgui_tables.cpp.o
+
+include/Vendors/imgui/imgui_tables.i: include/Vendors/imgui/imgui_tables.cpp.i
+.PHONY : include/Vendors/imgui/imgui_tables.i
+
+# target to preprocess a source file
+include/Vendors/imgui/imgui_tables.cpp.i:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.i
+.PHONY : include/Vendors/imgui/imgui_tables.cpp.i
+
+include/Vendors/imgui/imgui_tables.s: include/Vendors/imgui/imgui_tables.cpp.s
+.PHONY : include/Vendors/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+include/Vendors/imgui/imgui_tables.cpp.s:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.s
+.PHONY : include/Vendors/imgui/imgui_tables.cpp.s
+
+include/Vendors/imgui/imgui_widgets.o: include/Vendors/imgui/imgui_widgets.cpp.o
+.PHONY : include/Vendors/imgui/imgui_widgets.o
+
+# target to build an object file
+include/Vendors/imgui/imgui_widgets.cpp.o:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o
+.PHONY : include/Vendors/imgui/imgui_widgets.cpp.o
+
+include/Vendors/imgui/imgui_widgets.i: include/Vendors/imgui/imgui_widgets.cpp.i
+.PHONY : include/Vendors/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+include/Vendors/imgui/imgui_widgets.cpp.i:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.i
+.PHONY : include/Vendors/imgui/imgui_widgets.cpp.i
+
+include/Vendors/imgui/imgui_widgets.s: include/Vendors/imgui/imgui_widgets.cpp.s
+.PHONY : include/Vendors/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+include/Vendors/imgui/imgui_widgets.cpp.s:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.s
+.PHONY : include/Vendors/imgui/imgui_widgets.cpp.s
+
+include/Vendors/imgui/rlImGui.o: include/Vendors/imgui/rlImGui.cpp.o
+.PHONY : include/Vendors/imgui/rlImGui.o
+
+# target to build an object file
+include/Vendors/imgui/rlImGui.cpp.o:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o
+.PHONY : include/Vendors/imgui/rlImGui.cpp.o
+
+include/Vendors/imgui/rlImGui.i: include/Vendors/imgui/rlImGui.cpp.i
+.PHONY : include/Vendors/imgui/rlImGui.i
+
+# target to preprocess a source file
+include/Vendors/imgui/rlImGui.cpp.i:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.i
+.PHONY : include/Vendors/imgui/rlImGui.cpp.i
+
+include/Vendors/imgui/rlImGui.s: include/Vendors/imgui/rlImGui.cpp.s
+.PHONY : include/Vendors/imgui/rlImGui.s
+
+# target to generate assembly for a file
+include/Vendors/imgui/rlImGui.cpp.s:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.s
+.PHONY : include/Vendors/imgui/rlImGui.cpp.s
+
 src/Editor.o: src/Editor.cpp.o
 .PHONY : src/Editor.o
 
@@ -234,6 +426,30 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... ChainSaw"
+	@echo "... include/Vendors/imgui/imgui.o"
+	@echo "... include/Vendors/imgui/imgui.i"
+	@echo "... include/Vendors/imgui/imgui.s"
+	@echo "... include/Vendors/imgui/imgui_demo.o"
+	@echo "... include/Vendors/imgui/imgui_demo.i"
+	@echo "... include/Vendors/imgui/imgui_demo.s"
+	@echo "... include/Vendors/imgui/imgui_draw.o"
+	@echo "... include/Vendors/imgui/imgui_draw.i"
+	@echo "... include/Vendors/imgui/imgui_draw.s"
+	@echo "... include/Vendors/imgui/imgui_impl_glfw.o"
+	@echo "... include/Vendors/imgui/imgui_impl_glfw.i"
+	@echo "... include/Vendors/imgui/imgui_impl_glfw.s"
+	@echo "... include/Vendors/imgui/imgui_impl_opengl3.o"
+	@echo "... include/Vendors/imgui/imgui_impl_opengl3.i"
+	@echo "... include/Vendors/imgui/imgui_impl_opengl3.s"
+	@echo "... include/Vendors/imgui/imgui_tables.o"
+	@echo "... include/Vendors/imgui/imgui_tables.i"
+	@echo "... include/Vendors/imgui/imgui_tables.s"
+	@echo "... include/Vendors/imgui/imgui_widgets.o"
+	@echo "... include/Vendors/imgui/imgui_widgets.i"
+	@echo "... include/Vendors/imgui/imgui_widgets.s"
+	@echo "... include/Vendors/imgui/rlImGui.o"
+	@echo "... include/Vendors/imgui/rlImGui.i"
+	@echo "... include/Vendors/imgui/rlImGui.s"
 	@echo "... src/Editor.o"
 	@echo "... src/Editor.i"
 	@echo "... src/Editor.s"

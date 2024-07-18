@@ -1,12 +1,41 @@
 #pragma once
-#include "Common/Core.h"
+#include "Auxiliaries/ECS.h"
 #include "Context.h"
+#include "raylib.h"
 
 namespace CSE {
     class AppInterface
     {
       public:
         CSE_INLINE ~AppInterface() = default;
+
+        // create entity
+        template <typename Entt, typename... Args>
+        CSE_INLINE Entt CreateEntt(Args&&... args)
+        {
+            CSE_STATIC_ASSERT(std::is_base_of<Entity, Entt>::value);
+            return std::move(Entt(&m_Context->Scene, std::forward<Args>(args)...));
+        }
+
+        // convert id to entity
+        template<typename Entt>
+        CSE_INLINE Entt ToEntt(EntityID entity)
+        {
+            CSE_STATIC_ASSERT(std::is_base_of<Entity, Entt>::value);
+            return std::move(Entt(&m_Context->Scene, entity));
+        }
+
+        // loop through entities
+        template<typename Entt, typename Comp, typename Task>
+        CSE_INLINE void EnttView(Task&& task)
+        {
+            CSE_STATIC_ASSERT(std::is_base_of<Entity, Entt>::value);
+            m_Context->Scene.view<Comp>().each([this, &task]
+            (auto entity, auto& comp)
+            {
+                task(std::move(Entt(&m_Context->Scene, entity)), comp);
+            });
+        }
 
         //----------
         // attach event callback
@@ -101,6 +130,12 @@ namespace CSE {
             }
 
             return nullptr;
+        }
+
+        CSE_INLINE RenderTexture &GetSceneFrame()
+        {
+            //return m_Context->Renderer->GetFrame();
+            return m_Context->Renderer->ViewTexture;
         }
       protected:
         CSE_INLINE virtual void OnUpdate() {}
