@@ -3,6 +3,11 @@
 include(FetchContent)
 include(CheckCXXSourceCompiles)
 
+check_cxx_source_compiles("
+    #include<version>
+    int main() { return 0; }
+" ENTT_HAS_HEADER_VERSION)
+
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
 
@@ -96,6 +101,14 @@ function(SETUP_TARGET TARGET_NAME)
             NOMINMAX
             ${ARGN}
     )
+
+    if(ENTT_HAS_HEADER_VERSION)
+        target_compile_definitions(
+            ${TARGET_NAME}
+            PRIVATE
+                ENTT_HAS_HEADER_VERSION
+        )
+    endif()
 endfunction()
 
 add_library(odr OBJECT odr.cpp)
@@ -213,13 +226,11 @@ SETUP_BASIC_TEST(version entt/config/version.cpp)
 
 SETUP_BASIC_TEST(dense_map entt/container/dense_map.cpp)
 SETUP_BASIC_TEST(dense_set entt/container/dense_set.cpp)
-SETUP_BASIC_TEST(table entt/container/table.cpp)
 
 # Test core
 
 SETUP_BASIC_TEST(algorithm entt/core/algorithm.cpp)
 SETUP_BASIC_TEST(any entt/core/any.cpp)
-SETUP_BASIC_TEST(bit entt/core/bit.cpp)
 SETUP_BASIC_TEST(compressed_pair entt/core/compressed_pair.cpp)
 SETUP_BASIC_TEST(enum entt/core/enum.cpp)
 SETUP_BASIC_TEST(family entt/core/family.cpp)
@@ -251,7 +262,7 @@ SETUP_BASIC_TEST(storage entt/entity/storage.cpp)
 SETUP_BASIC_TEST(storage_entity entt/entity/storage_entity.cpp)
 SETUP_BASIC_TEST(storage_no_instance entt/entity/storage_no_instance.cpp)
 SETUP_BASIC_TEST(storage_utility entt/entity/storage_utility.cpp)
-SETUP_BASIC_TEST(storage_utility_no_mixin entt/entity/storage_utility.cpp ENTT_NO_MIXIN)
+SETUP_BASIC_TEST(table entt/entity/table.cpp)
 SETUP_BASIC_TEST(view entt/entity/view.cpp)
 
 # Test graph

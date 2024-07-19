@@ -40,13 +40,13 @@ CSE_INLINE bool InputFloat(const char* label, float* value)
 }
 
 // shows vec3 input field
-/*CSE_INLINE bool InputVec3(const char* label, glm::vec3* value)
+CSE_INLINE bool InputVec3(const char* label, Vector3* value)
 {
     BeginInput(label);
     bool hasChanged = ImGui::InputFloat3("##", &value->x);
     EndInput();
     return hasChanged;
-    }*/
+    }
 
 // shows bool input field
 CSE_INLINE bool InputColor(const char* label, float* value)

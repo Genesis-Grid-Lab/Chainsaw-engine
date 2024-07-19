@@ -1,4 +1,5 @@
 #pragma once
+#include "Auxiliaries/Assets.h"
 #include "Common/Core.h"
 #include "Graphics/Utilities/Data.h"
 #include "raylib.h"
@@ -57,12 +58,18 @@ namespace CSE {
         {
             Vector2 WorldPos = GetScreenToWorld2D(Vector2({(float)GetScreenWidth(), (float)GetScreenHeight()}), camera);
             camera.target = (Vector2){transform.Translate.x,transform.Translate.y};
+
             //camera.target = WorldPos;
             camera.offset = (Vector2){SCRNWIDTH / 2.0f, SCRNHEIGHT / 2.0f};
             camera.rotation = 0.0f;
             camera.zoom = 1.0f;
 
             BeginMode2D(camera);
+        }
+
+        CSE_INLINE void Draw2D(TextureAsset& sprite, Transform3D& transform)
+        {
+            DrawTexture(sprite.Data, transform.Translate.x, transform.Translate.y, WHITE);
         }
 
         CSE_INLINE RenderTexture &GetFrame(){

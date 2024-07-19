@@ -10,7 +10,7 @@
 #include <vector>
 #include <gtest/gtest.h>
 #include <entt/container/dense_set.hpp>
-#include <entt/core/bit.hpp>
+#include <entt/core/memory.hpp>
 #include <entt/core/utility.hpp>
 #include "../../common/linter.hpp"
 #include "../../common/throwing_allocator.hpp"

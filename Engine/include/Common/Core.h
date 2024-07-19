@@ -15,6 +15,7 @@
 #include <filesystem>
 #include <unordered_map>
 #include <iostream>
+#include <stdio.h>
 
 // Raylib
 #include "entt/entity/fwd.hpp"
@@ -72,9 +73,10 @@ namespace CSE
         static std::mt19937_64 generator(device());
         static std::uniform_int_distribution<uint64_t> distribution;
         return distribution(generator);
+        printf("");
     }
 }
 
 // free allocated memory
 #define CSE_DELETE(ptr) if (ptr != nullptr) { delete (ptr); ptr = nullptr;}
-#define CSE_ERROR(error) std::cout << error << std::endl;
+#define CSE_ERROR(error...) printf(error);

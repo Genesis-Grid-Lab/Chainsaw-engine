@@ -10,11 +10,14 @@
 #include <entt/meta/range.hpp>
 #include <entt/meta/resolve.hpp>
 #include "../../common/config.h"
-#include "../../common/meta_traits.h"
 
 struct base {
     base() = default;
-    virtual ~base() noexcept = default;
+    virtual ~base() = default;
+
+    static void destroy(base &) {
+        ++counter;
+    }
 
     void setter(int v) {
         value = v;
@@ -28,6 +31,7 @@ struct base {
         ref.value = v;
     }
 
+    inline static int counter = 0; // NOLINT
     int value{3};
 };
 
@@ -99,6 +103,7 @@ struct MetaFunc: ::testing::Test {
 
         entt::meta<base>()
             .type("base"_hs)
+            .dtor<base::destroy>()
             .func<&base::setter>("setter"_hs)
             .func<fake_member>("fake_member"_hs)
             .func<fake_const_member>("fake_const_member"_hs);
@@ -108,19 +113,16 @@ struct MetaFunc: ::testing::Test {
             .base<base>()
             .func<&base::setter>("setter_from_base"_hs)
             .func<&base::getter>("getter_from_base"_hs)
-            .func<&base::static_setter>("static_setter_from_base"_hs);
+            .func<&base::static_setter>("static_setter_from_base"_hs)
+            .dtor<derived::destroy>();
 
         entt::meta<function>()
             .type("func"_hs)
             .func<&entt::registry::emplace_or_replace<function>>("emplace"_hs)
-            .traits(test::meta_traits::one | test::meta_traits::two | test::meta_traits::three)
             .func<entt::overload<int(const base &, int, int)>(&function::f)>("f3"_hs)
-            .traits(test::meta_traits::three)
             .func<entt::overload<int(int, int)>(&function::f)>("f2"_hs)
-            .traits(test::meta_traits::two)
             .prop("true"_hs, false)
             .func<entt::overload<int(int) const>(&function::f)>("f1"_hs)
-            .traits(test::meta_traits::one)
             .prop("true"_hs, false)
             .func<&function::g>("g"_hs)
             .prop("true"_hs, false)
@@ -132,6 +134,8 @@ struct MetaFunc: ::testing::Test {
             .func<&function::a, entt::as_ref_t>("a"_hs)
             .func<&function::a, entt::as_cref_t>("ca"_hs)
             .conv<int>();
+
+        base::counter = 0;
     }
 
     void TearDown() override {
@@ -203,18 +207,6 @@ TEST_F(MetaFunc, Functionalities) {
 
     ASSERT_TRUE(prop);
     ASSERT_FALSE(prop.value().cast<bool>());
-}
-
-TEST_F(MetaFunc, UserTraits) {
-    using namespace entt::literals;
-
-    ASSERT_EQ(entt::resolve<function>().func("h"_hs).traits<test::meta_traits>(), test::meta_traits::none);
-    ASSERT_EQ(entt::resolve<function>().func("k"_hs).traits<test::meta_traits>(), test::meta_traits::none);
-
-    ASSERT_EQ(entt::resolve<function>().func("emplace"_hs).traits<test::meta_traits>(), test::meta_traits::one | test::meta_traits::two | test::meta_traits::three);
-    ASSERT_EQ(entt::resolve<function>().func("f1"_hs).traits<test::meta_traits>(), test::meta_traits::one);
-    ASSERT_EQ(entt::resolve<function>().func("f2"_hs).traits<test::meta_traits>(), test::meta_traits::two);
-    ASSERT_EQ(entt::resolve<function>().func("f3"_hs).traits<test::meta_traits>(), test::meta_traits::three);
 }
 
 TEST_F(MetaFunc, Const) {
@@ -620,21 +612,6 @@ TEST_F(MetaFunc, ExternalMemberFunction) {
     func.invoke({}, entt::forward_as_meta(registry), entity);
 
     ASSERT_TRUE(registry.all_of<function>(entity));
-}
-
-TEST_F(MetaFunc, Seek) {
-    using namespace entt::literals;
-
-    auto func = entt::resolve<function>().func("f2"_hs);
-
-    ASSERT_TRUE(func);
-    ASSERT_FALSE(func.prop('c'));
-
-    entt::meta<function>()
-        .func("f2"_hs)
-        .prop('c');
-
-    ASSERT_TRUE(func.prop('c'));
 }
 
 TEST_F(MetaFunc, ReRegistration) {

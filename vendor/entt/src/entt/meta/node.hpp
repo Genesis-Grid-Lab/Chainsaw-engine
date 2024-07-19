@@ -39,8 +39,7 @@ enum class meta_traits : std::uint32_t {
     is_meta_pointer_like = 0x0200,
     is_meta_sequence_container = 0x0400,
     is_meta_associative_container = 0x0800,
-    _user_defined_traits = 0xFFFF,
-    _entt_enum_as_bitmask = 0xFFFF
+    _entt_enum_as_bitmask
 };
 
 struct meta_type_node;
@@ -236,22 +235,22 @@ template<typename Type>
     }
 
     if constexpr(std::is_arithmetic_v<Type>) {
-        node.conversion_helper = +[](void *lhs, const void *rhs) {
-            return lhs ? static_cast<double>(*static_cast<Type *>(lhs) = static_cast<Type>(*static_cast<const double *>(rhs))) : static_cast<double>(*static_cast<const Type *>(rhs));
+        node.conversion_helper = +[](void *bin, const void *value) {
+            return bin ? static_cast<double>(*static_cast<Type *>(bin) = static_cast<Type>(*static_cast<const double *>(value))) : static_cast<double>(*static_cast<const Type *>(value));
         };
     } else if constexpr(std::is_enum_v<Type>) {
-        node.conversion_helper = +[](void *lhs, const void *rhs) {
-            return lhs ? static_cast<double>(*static_cast<Type *>(lhs) = static_cast<Type>(static_cast<std::underlying_type_t<Type>>(*static_cast<const double *>(rhs)))) : static_cast<double>(*static_cast<const Type *>(rhs));
+        node.conversion_helper = +[](void *bin, const void *value) {
+            return bin ? static_cast<double>(*static_cast<Type *>(bin) = static_cast<Type>(static_cast<std::underlying_type_t<Type>>(*static_cast<const double *>(value)))) : static_cast<double>(*static_cast<const Type *>(value));
         };
     }
 
     if constexpr(!std::is_void_v<Type> && !std::is_function_v<Type>) {
-        node.from_void = +[](const meta_ctx &ctx, void *elem, const void *celem) {
-            if(elem) {
-                return meta_any{ctx, std::in_place_type<std::decay_t<Type> &>, *static_cast<std::decay_t<Type> *>(elem)};
+        node.from_void = +[](const meta_ctx &ctx, void *element, const void *as_const) {
+            if(element) {
+                return meta_any{ctx, std::in_place_type<std::decay_t<Type> &>, *static_cast<std::decay_t<Type> *>(element)};
             }
 
-            return meta_any{ctx, std::in_place_type<const std::decay_t<Type> &>, *static_cast<const std::decay_t<Type> *>(celem)};
+            return meta_any{ctx, std::in_place_type<const std::decay_t<Type> &>, *static_cast<const std::decay_t<Type> *>(as_const)};
         };
     }
 

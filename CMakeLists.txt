@@ -16,6 +16,14 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS ON)
 set(CMAKE_CXX_STANDARD 17)
 
+#sol options
+
+set(SOL2_LUA_VERSION "5.4.4" CACHE STRING
+    "The version of Lua used")
+
+set(SOL2_BUILD_LUA FALSE CACHE BOOL
+    "Always build dont search")
+
 project(ChainSawEngine)
 
 # enable console logging
@@ -27,6 +35,9 @@ if(${CMAKE_BUILD_TYPE} MATCHES Debug)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/vendor/raylib)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/vendor/raylib-cpp)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/vendor/entt)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/vendor/yaml)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/vendor/lua)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/vendor/sol2)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Engine)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Editor)
 #add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Game)

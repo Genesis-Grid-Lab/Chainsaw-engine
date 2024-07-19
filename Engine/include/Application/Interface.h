@@ -1,7 +1,6 @@
 #pragma once
 #include "Auxiliaries/ECS.h"
 #include "Context.h"
-#include "raylib.h"
 
 namespace CSE {
     class AppInterface
@@ -35,6 +34,13 @@ namespace CSE {
             {
                 task(std::move(Entt(&m_Context->Scene, entity)), comp);
             });
+        }
+
+        //loop through entities
+        template<typename Task>
+        CSE_INLINE void AssetView(Task&& task)
+        {
+            m_Context->Assets->View([&] (auto asset) { task(asset);});
         }
 
         //----------

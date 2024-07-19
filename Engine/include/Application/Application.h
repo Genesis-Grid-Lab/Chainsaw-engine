@@ -3,6 +3,7 @@
 #include "Auxiliaries/ECS.h"
 #include "Common/Core.h"
 #include "Interface.h"
+#include "Window/Events.h"
 #include "raylib.h"
 
 namespace CSE {
@@ -13,7 +14,7 @@ namespace CSE {
         CSE_INLINE void RunContext(bool showFrame)
         {
             // application main loop
-            while(!WindowShouldClose())
+            while(m_Context->Window->PollEvents())
             {
                 // set delta time
                 UpdateDeltaTime();
@@ -64,7 +65,11 @@ namespace CSE {
         // register event callback function
         CSE_INLINE void RegisterCallbacks()
         {
+            //attach window resize event callback
+            AttachCallback<WindowResizeEvent>([this] (auto e)
+                {
 
+                });
         }
 
         // computes frame delta time value
@@ -78,17 +83,20 @@ namespace CSE {
         {
             // load assets
             auto spriteAsset = m_Context->Assets->AddTexture(RandomU64(), "Resources/Ship.png");
+            auto spriteScript = m_Context->Assets->AddScript(RandomU64(), "Resource/Scripts/TestScipt.lua");
             // create scene camera
             auto camera = CreateEntt<Entity>();
             camera.Attach<InfoComponent>().Name = "Camera";
-            camera.Attach<TransformComponent>().Transform.Translate.z = 20.0f;
+            camera.Attach<TransformComponent>();
             //camera.Attach<CameraComponent>();
             camera.Attach<Camera2DComponent>();
 
             // create sprite
             auto sprite = CreateEntt<Entity>();
             sprite.Attach<InfoComponent>().Name = "Sprite";
+            sprite.Attach<TransformComponent>();
             sprite.Attach<SpriteComponent>().Sprite = spriteAsset->UID;
+            sprite.Attach<ScriptComponent>().Script = spriteScript->UID;
         }
 
         // update
@@ -105,17 +113,12 @@ namespace CSE {
             EnttView<Entity, CameraComponent>([this] (auto entity, auto& comp)
                 {
                     auto& transform = entity.template Get<TransformComponent>().Transform;
-                    transform.Translate.x = 10.0f;
-                    transform.Translate.y = 10.0f;
-                    transform.Translate.z = 10.0f;
                     m_Context->Renderer->SetCamera(comp.Camera, transform);
                 });
 
             EnttView<Entity, Camera2DComponent>([this] (auto entity, auto& comp)
                 {
                     auto& transform = entity.template Get<TransformComponent>().Transform;
-                    transform.Translate.x = 0.0f;
-                    transform.Translate.y = 0.0f;
                     m_Context->Renderer->SetCamera2D(comp.Camera, transform);
                 });
 
@@ -125,9 +128,11 @@ namespace CSE {
                     //retrieve assets
                     //auto& transform = entity.template Get<TransformComponent>().Transform;
                     auto& Sprite = m_Context->Assets->Get<TextureAsset>(comp.Sprite);
+                    auto& transform = entity.template Get<TransformComponent>().Transform;
+                    comp.Position.Translate.x = transform.Translate.x;
 
                     //render sprite
-                    DrawTexture(Sprite.Data, 0.0f, 0.0f, WHITE);
+                    m_Context->Renderer->Draw2D(Sprite, transform);
                 });
             //DrawTexture(Texture2D texture, int posX, int posY, Color tint)
             //DrawCube(Vector3({0,0,0}), 2.0f, 2.0f, 2.0f, RED);

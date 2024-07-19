@@ -5,10 +5,10 @@ namespace CSE {
     template <typename Event>
     struct EventListener
     {
-      using CallbackFn = std::function<void(const Event&)>;
+        using CallbackFn = std::function<void(const Event&)>;
 
-      CSE_INLINE EventListener(CallbackFn&& callback, uint32_t listnrid):
-        Callback(std::move(callback)), ID(listnrid)
+        CSE_INLINE EventListener(CallbackFn&& callback, uint32_t listnrid):
+            Callback(std::move(callback)), ID(listnrid)
         {}
 
         CallbackFn Callback;
@@ -16,33 +16,36 @@ namespace CSE {
     };
 
     // Event Registry
+
     template <typename Event>
     struct EventRegistry
     {
-      using Listener = std::unique_ptr<EventListener<Event>>;
-      std::queue<std::unique_ptr<Event>> Queue;
-      std::vector<Listener> Listeners;
+        using Listener = std::unique_ptr<EventListener<Event>>;
+        std::queue<std::unique_ptr<Event>> Queue;
+        std::vector<Listener> Listeners;
     };
 
     // Event Dispatcher
+
     struct EventDispatcher
     {
-      CSE_INLINE ~EventDispatcher(){
-          for (auto& [_, ptr] : m_Registry)
-          {
-              auto registry = CastRegistry<char>(ptr);
-              CSE_DELETE(registry);
-          }
-      }
+        CSE_INLINE ~EventDispatcher()
+        {
+            for(auto& [_, ptr] : m_Registry)
+            {
+                auto registry = CastRegistry<char>(ptr);
+                CSE_DELETE(registry);
+            }
+        }
 
-      template<typename Event, typename Callback>
-      CSE_INLINE void AttachCallback(Callback&& callback, uint32_t listnrid)
-     {
-        auto listener = std::make_unique<EventListener<Event>>(std::move(callback), listnrid);
-        GetRegistry<Event>()->Listeners.push_back(std::move(listener));
-     }
+        template <typename Event, typename Callback>
+        CSE_INLINE void AttachCallback(Callback&& callback, uint32_t listnrid)
+        {
+            auto listener = std::make_unique<EventListener<Event>>(std::move(callback), listnrid);
+            GetRegistry<Event>()->Listeners.push_back(std::move(listener));
+        }
 
-     template <typename Event>
+        template <typename Event>
         CSE_INLINE void DetachCallback(uint32_t listnrid)
         {
             auto& listeners = GetRegistry<Event>()->Listeners;
@@ -84,6 +87,7 @@ namespace CSE {
 
         CSE_INLINE void PollEvents()
         {
+            auto it = m_Registry;
             // persistent callbacks
             for(auto& [_, pointer] : m_Registry)
             {
@@ -97,7 +101,7 @@ namespace CSE {
                     }
                     registry->Queue.pop();
                 }
-            }
+                }
 
             // frame callbacks
             while(!m_Tasks.empty())
@@ -130,6 +134,5 @@ namespace CSE {
     private:
         std::unordered_map<uint32_t, void*> m_Registry;
         std::queue<std::function<void()>> m_Tasks;
-
     };
 }

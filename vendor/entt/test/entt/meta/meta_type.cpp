@@ -17,7 +17,6 @@
 #include <entt/meta/resolve.hpp>
 #include <entt/meta/template.hpp>
 #include "../../common/config.h"
-#include "../../common/meta_traits.h"
 
 template<typename Type>
 void set(Type &prop, Type value) {
@@ -39,7 +38,7 @@ struct derived: base {
 };
 
 struct abstract {
-    virtual ~abstract() noexcept = default;
+    virtual ~abstract() = default;
 
     virtual void func(int) {}
     void base_only(int) {}
@@ -117,12 +116,10 @@ struct MetaType: ::testing::Test {
 
         entt::meta<double>()
             .type("double"_hs)
-            .traits(test::meta_traits::one)
             .data<set<double>, get<double>>("var"_hs);
 
         entt::meta<unsigned int>()
             .type("unsigned int"_hs)
-            .traits(test::meta_traits::two)
             .data<0u>("min"_hs)
             .data<128u>("max"_hs);
 
@@ -132,7 +129,6 @@ struct MetaType: ::testing::Test {
 
         entt::meta<derived>()
             .type("derived"_hs)
-            .traits(test::meta_traits::one | test::meta_traits::three)
             .base<base>();
 
         entt::meta<abstract>()
@@ -157,7 +153,6 @@ struct MetaType: ::testing::Test {
 
         entt::meta<property_type>()
             .type("property"_hs)
-            .traits(test::meta_traits::two | test::meta_traits::three)
             .data<property_type::random>("random"_hs)
             .prop(static_cast<entt::id_type>(property_type::random), 0)
             .prop(static_cast<entt::id_type>(property_type::value), 3)
@@ -286,16 +281,6 @@ TEST_F(MetaType, Traits) {
     ASSERT_FALSE((entt::resolve<int>().is_associative_container()));
     ASSERT_TRUE((entt::resolve<std::map<int, char>>().is_associative_container()));
     ASSERT_FALSE(entt::resolve<std::vector<int>>().is_associative_container());
-}
-
-TEST_F(MetaType, UserTraits) {
-    ASSERT_EQ(entt::resolve<bool>().traits<test::meta_traits>(), test::meta_traits::none);
-    ASSERT_EQ(entt::resolve<clazz>().traits<test::meta_traits>(), test::meta_traits::none);
-
-    ASSERT_EQ(entt::resolve<double>().traits<test::meta_traits>(), test::meta_traits::one);
-    ASSERT_EQ(entt::resolve<unsigned int>().traits<test::meta_traits>(), test::meta_traits::two);
-    ASSERT_EQ(entt::resolve<derived>().traits<test::meta_traits>(), test::meta_traits::one | test::meta_traits::three);
-    ASSERT_EQ(entt::resolve<property_type>().traits<test::meta_traits>(), test::meta_traits::two | test::meta_traits::three);
 }
 
 TEST_F(MetaType, RemovePointer) {

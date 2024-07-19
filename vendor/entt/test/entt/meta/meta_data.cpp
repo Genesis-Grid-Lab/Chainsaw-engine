@@ -13,10 +13,9 @@
 #include <entt/meta/range.hpp>
 #include <entt/meta/resolve.hpp>
 #include "../../common/config.h"
-#include "../../common/meta_traits.h"
 
 struct base {
-    virtual ~base() noexcept = default;
+    virtual ~base() = default;
 
     static void destroy(base &) {
         ++counter;
@@ -110,17 +109,13 @@ struct MetaData: ::testing::Test {
         entt::meta<clazz>()
             .type("clazz"_hs)
             .data<&clazz::i, entt::as_ref_t>("i"_hs)
-            .traits(test::meta_traits::one | test::meta_traits::two | test::meta_traits::three)
             .prop(3u, 0)
             .data<&clazz::i, entt::as_cref_t>("ci"_hs)
             .data<&clazz::j>("j"_hs)
-            .traits(test::meta_traits::one)
             .prop("true"_hs, 1)
             .data<&clazz::h>("h"_hs)
-            .traits(test::meta_traits::two)
             .prop(static_cast<entt::id_type>(property_type::random), 2)
             .data<&clazz::k>("k"_hs)
-            .traits(test::meta_traits::three)
             .prop(static_cast<entt::id_type>(property_type::value), 3)
             .data<&clazz::instance>("base"_hs)
             .data<&clazz::i, entt::as_void_t>("void"_hs)
@@ -188,18 +183,6 @@ TEST_F(MetaData, Functionalities) {
 
     ASSERT_TRUE(prop);
     ASSERT_EQ(prop.value(), 0);
-}
-
-TEST_F(MetaData, UserTraits) {
-    using namespace entt::literals;
-
-    ASSERT_EQ(entt::resolve<clazz>().data("ci"_hs).traits<test::meta_traits>(), test::meta_traits::none);
-    ASSERT_EQ(entt::resolve<clazz>().data("base"_hs).traits<test::meta_traits>(), test::meta_traits::none);
-
-    ASSERT_EQ(entt::resolve<clazz>().data("i"_hs).traits<test::meta_traits>(), test::meta_traits::one | test::meta_traits::two | test::meta_traits::three);
-    ASSERT_EQ(entt::resolve<clazz>().data("j"_hs).traits<test::meta_traits>(), test::meta_traits::one);
-    ASSERT_EQ(entt::resolve<clazz>().data("h"_hs).traits<test::meta_traits>(), test::meta_traits::two);
-    ASSERT_EQ(entt::resolve<clazz>().data("k"_hs).traits<test::meta_traits>(), test::meta_traits::three);
 }
 
 TEST_F(MetaData, Const) {
@@ -655,21 +638,6 @@ TEST_F(MetaData, SetGetFromBase) {
     ASSERT_TRUE(type.data("value_from_base"_hs).set(instance, 1));
     ASSERT_EQ(type.data("value_from_base"_hs).get(instance).cast<int>(), 1);
     ASSERT_EQ(instance.value, 1);
-}
-
-TEST_F(MetaData, Seek) {
-    using namespace entt::literals;
-
-    auto data = entt::resolve<clazz>().data("i"_hs);
-
-    ASSERT_TRUE(data);
-    ASSERT_FALSE(data.prop('c'));
-
-    entt::meta<clazz>()
-        .data("i"_hs)
-        .prop('c');
-
-    ASSERT_TRUE(data.prop('c'));
 }
 
 TEST_F(MetaData, ReRegistration) {

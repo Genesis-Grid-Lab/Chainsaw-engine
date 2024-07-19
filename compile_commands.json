@@ -198,14 +198,656 @@
   "output": "vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o"
 },
 {
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/contrib/graphbuilder.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/contrib/graphbuilder.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/contrib/graphbuilderadapter.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/contrib/graphbuilderadapter.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/binary.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/binary.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/binary.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/convert.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/convert.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/convert.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/depthguard.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/depthguard.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/directives.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/directives.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/directives.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emit.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/emit.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/emit.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/emitfromevents.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/emitfromevents.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/emitter.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/emitter.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/emitterstate.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/emitterstate.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/emitterutils.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/emitterutils.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/exceptions.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/exceptions.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/exp.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/exp.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/exp.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/memory.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/memory.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/memory.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/node.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/node.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/node.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/node.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/node_data.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/node_data.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/nodebuilder.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/nodebuilder.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/nodeevents.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/nodeevents.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/null.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/null.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/null.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/null.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/ostream_wrapper.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/ostream_wrapper.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/parse.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/parse.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/parse.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/parser.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/parser.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/parser.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/regex_yaml.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/regex_yaml.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/scanner.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/scanner.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/scanscalar.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/scanscalar.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/scantag.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/scantag.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/scantoken.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/scantoken.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/simplekey.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/simplekey.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/singledocparser.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/singledocparser.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/stream.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/stream.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/stream.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src -g -std=gnu++17 -fPIC -o CMakeFiles/yaml-cpp.dir/src/tag.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/tag.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/src/tag.cpp",
+  "output": "vendor/yaml/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml/util",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -g -std=gnu++17 -o CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/util/sandbox.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/util/sandbox.cpp",
+  "output": "vendor/yaml/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml/util",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -g -std=gnu++17 -o CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/util/parse.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/util/parse.cpp",
+  "output": "vendor/yaml/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml/util",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DYAML_CPP_STATIC_DEFINE -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -g -std=gnu++17 -o CMakeFiles/yaml-cpp-read.dir/read.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/yaml/util/read.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/util/read.cpp",
+  "output": "vendor/yaml/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lapi.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lapi.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lapi.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lapi.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lcode.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lcode.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lcode.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lcode.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lctype.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lctype.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lctype.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lctype.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/ldebug.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldebug.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldebug.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/ldebug.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/ldo.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldo.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldo.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/ldo.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/ldump.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldump.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldump.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/ldump.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lfunc.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lfunc.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lfunc.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lfunc.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lgc.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lgc.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lgc.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lgc.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/llex.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/llex.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/llex.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/llex.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lmem.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lmem.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lmem.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lmem.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lobject.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lobject.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lobject.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lobject.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lopcodes.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lopcodes.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lopcodes.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lopcodes.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lparser.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lparser.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lparser.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lparser.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lstate.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstate.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstate.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lstate.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lstring.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstring.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstring.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lstring.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/ltable.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltable.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltable.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/ltable.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/ltm.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltm.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltm.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/ltm.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lundump.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lundump.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lundump.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lundump.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lvm.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lvm.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lvm.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lvm.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lzio.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lzio.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lzio.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lzio.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lauxlib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lauxlib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lauxlib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lauxlib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lbaselib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lbaselib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lbaselib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lbaselib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lcorolib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lcorolib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lcorolib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lcorolib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/ldblib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldblib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldblib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/ldblib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/liolib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/liolib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/liolib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/liolib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lmathlib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lmathlib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lmathlib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lmathlib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/loadlib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/loadlib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/loadlib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/loadlib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/loslib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/loslib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/loslib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/loslib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lstrlib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstrlib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstrlib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lstrlib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/ltablib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltablib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltablib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/ltablib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/lutf8lib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lutf8lib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lutf8lib.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/lutf8lib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -Dlua_shared_EXPORTS -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -fPIC -Wall -Wextra -o CMakeFiles/lua_shared.dir/src/linit.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/linit.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/linit.c",
+  "output": "vendor/lua/CMakeFiles/lua_shared.dir/src/linit.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lapi.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lapi.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lapi.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lapi.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lcode.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lcode.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lcode.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lcode.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lctype.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lctype.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lctype.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lctype.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/ldebug.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldebug.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldebug.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/ldebug.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/ldo.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldo.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldo.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/ldo.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/ldump.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldump.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldump.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/ldump.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lfunc.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lfunc.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lfunc.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lfunc.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lgc.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lgc.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lgc.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lgc.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/llex.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/llex.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/llex.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/llex.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lmem.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lmem.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lmem.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lmem.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lobject.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lobject.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lobject.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lobject.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lopcodes.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lopcodes.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lopcodes.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lopcodes.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lparser.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lparser.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lparser.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lparser.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lstate.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstate.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstate.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lstate.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lstring.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstring.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstring.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lstring.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/ltable.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltable.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltable.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/ltable.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/ltm.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltm.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltm.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/ltm.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lundump.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lundump.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lundump.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lundump.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lvm.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lvm.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lvm.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lvm.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lzio.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lzio.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lzio.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lzio.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lauxlib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lauxlib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lauxlib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lauxlib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lbaselib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lbaselib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lbaselib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lbaselib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lcorolib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lcorolib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lcorolib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lcorolib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/ldblib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldblib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ldblib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/ldblib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/liolib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/liolib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/liolib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/liolib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lmathlib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lmathlib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lmathlib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lmathlib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/loadlib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/loadlib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/loadlib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/loadlib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/loslib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/loslib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/loslib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/loslib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lstrlib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstrlib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lstrlib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lstrlib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/ltablib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltablib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/ltablib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/ltablib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/lutf8lib.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lutf8lib.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/lutf8lib.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/lutf8lib.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -DLUA_USE_POSIX -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -Wall -Wextra -o CMakeFiles/lua_static.dir/src/linit.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/linit.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/linit.c",
+  "output": "vendor/lua/CMakeFiles/lua_static.dir/src/linit.c.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua",
+  "command": "/usr/bin/cc -DCSE_ENABLE_LOG -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -o CMakeFiles/luac.dir/src/luac.c.o -c /home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/luac.c",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/vendor/lua/src/luac.c",
+  "output": "vendor/lua/CMakeFiles/luac.dir/src/luac.c.o"
+},
+{
   "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Engine",
-  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DEngine_EXPORTS -DGEN_EXPORT -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -g -std=gnu++17 -fPIC -o CMakeFiles/Engine.dir/src/ChainSaw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DEngine_EXPORTS -DGEN_EXPORT -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -g -std=gnu++17 -fPIC -o CMakeFiles/Engine.dir/src/ChainSaw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
   "file": "/home/nesmy/Playground/Chainsaw-engine/Engine/src/ChainSaw.cpp",
   "output": "Engine/CMakeFiles/Engine.dir/src/ChainSaw.cpp.o"
 },
 {
   "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
-  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/src/Editor.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_demo.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_demo.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_draw.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_draw.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_tables.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_tables.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_widgets.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_widgets.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/rlImGui.cpp",
+  "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/rlImGui.cpp",
+  "output": "Editor/CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o"
+},
+{
+  "directory": "/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Editor",
+  "command": "/usr/bin/c++ -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -g -std=gnu++17 -o CMakeFiles/ChainSaw.dir/src/Editor.cpp.o -c /home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
   "file": "/home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp",
   "output": "Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o"
 }

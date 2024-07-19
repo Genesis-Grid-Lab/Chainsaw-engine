@@ -1,8 +1,6 @@
 #pragma once
-#include "Common/Core.h"
 #include "Window/Window.h"
 #include "Graphics/Renderer.h"
-#include "Common/Event.h"
 
 namespace CSE
 {
@@ -14,7 +12,7 @@ namespace CSE
     {
       public:
         CSE_INLINE AppContext(){
-            Window = std::make_unique<AppWindow>(SCRNWIDTH, SCRNHEIGHT, "ChainSaw Engine");
+            Window = std::make_unique<AppWindow>(&Dispatcher, SCRNWIDTH, SCRNHEIGHT, "ChainSaw Engine");
             Renderer = std::make_unique<GraphicsRenderer>();
             Assets = std::make_unique<AssetRegistry>();
         }

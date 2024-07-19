@@ -7,7 +7,6 @@
 #include <entt/core/fwd.hpp>
 #include <entt/entity/entity.hpp>
 #include <entt/entity/registry.hpp>
-#include <entt/entity/view.hpp>
 
 enum class my_entity : entt::id_type {
     disabled = 0x10000000,

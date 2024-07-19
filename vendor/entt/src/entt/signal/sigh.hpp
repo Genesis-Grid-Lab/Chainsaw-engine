@@ -67,7 +67,7 @@ public:
     using sink_type = sink<sigh<Ret(Args...), Allocator>>;
 
     /*! @brief Default constructor. */
-    sigh() noexcept(std::is_nothrow_default_constructible_v<allocator_type> && std::is_nothrow_constructible_v<container_type, const allocator_type &>)
+    sigh() noexcept(std::is_nothrow_default_constructible_v<allocator_type> &&std::is_nothrow_constructible_v<container_type, const allocator_type &>)
         : sigh{allocator_type{}} {}
 
     /**
@@ -106,9 +106,6 @@ public:
      */
     sigh(sigh &&other, const allocator_type &allocator) noexcept(std::is_nothrow_constructible_v<container_type, container_type &&, const allocator_type &>)
         : calls{std::move(other.calls), allocator} {}
-
-    /*! @brief Default destructor. */
-    ~sigh() noexcept = default;
 
     /**
      * @brief Copy assignment operator.
@@ -291,7 +288,7 @@ struct scoped_connection {
         : conn{std::exchange(other.conn, {})} {}
 
     /*! @brief Automatically breaks the link on destruction. */
-    ~scoped_connection() noexcept {
+    ~scoped_connection() {
         conn.release();
     }
 
@@ -317,7 +314,7 @@ struct scoped_connection {
      * @return This scoped connection.
      */
     scoped_connection &operator=(connection other) {
-        conn = other;
+        conn = std::move(other);
         return *this;
     }
 
@@ -417,7 +414,7 @@ public:
 
         delegate<void(void *)> conn{};
         conn.template connect<&release<Candidate, Type...>>(value_or_instance...);
-        return {conn, signal};
+        return {std::move(conn), signal};
     }
 
     /**
@@ -440,8 +437,9 @@ public:
      * @param value_or_instance A valid object that fits the purpose.
      */
     void disconnect(const void *value_or_instance) {
-        ENTT_ASSERT(value_or_instance != nullptr, "Invalid value or instance");
-        disconnect_if([value_or_instance](const auto &elem) { return elem.data() == value_or_instance; });
+        if(value_or_instance) {
+            disconnect_if([value_or_instance](const auto &elem) { return elem.data() == value_or_instance; });
+        }
     }
 
     /*! @brief Disconnects all the listeners from a signal. */

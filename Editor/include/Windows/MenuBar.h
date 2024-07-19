@@ -1,7 +1,9 @@
 #pragma once
+#include "Auxiliaries/ECS.h"
 #include "Context/Context.h"
 #include "Vendors/FA.h"
 #include "Vendors/imgui/imgui.h"
+#include "raylib.h"
 
 struct MenuBarWindow : IWidget
 {
@@ -19,12 +21,16 @@ struct MenuBarWindow : IWidget
                 if(ImGui::MenuItem(ICON_FA_FILE "New Project", "Ctrl+N")) {}
                 if(ImGui::MenuItem(ICON_FA_FILE "Open Project", "Ctrl+O")) {}
                 if(ImGui::MenuItem(ICON_FA_STORE "Save Scene", "Ctrl+S")) {}
-                if(ImGui::MenuItem(ICON_FA_DOOR_CLOSED "Exit", "Alt+F4")) {}
+                if(ImGui::MenuItem(ICON_FA_DOOR_CLOSED "Exit", "Alt+F4")) {CloseWindow();}
                 ImGui::EndMenu();
             }
 
             if(ImGui::BeginMenu("Scene")){
-                if(ImGui::MenuItem(ICON_FA_FORWARD "Add Entity")) {}
+                if(ImGui::MenuItem(ICON_FA_FORWARD "Add Entity")) {
+                    auto entity = context->CreateEntt<Entity>();
+                    entity.template Attach<TransformComponent>();
+                    entity.template Attach<InfoComponent>().Name = "New Entity";
+                }
                 if (ImGui::MenuItem(ICON_FA_FORWARD " Undo", "CTRL+Z")) {}
                 if (ImGui::MenuItem(ICON_FA_BACKWARD " Redo", "CTRL+Y")) {}
                 ImGui::Separator();

@@ -1,8 +1,5 @@
 #pragma once
-#include "Auxiliaries/Assets.h"
-#include "Common/Core.h"
-#include "Graphics/Utilities/Data.h"
-#include "raylib.h"
+#include "Assets.h"
 
 namespace CSE
 {
@@ -29,12 +26,22 @@ namespace CSE
         Camera2D Camera = {0};
     };
 
+    // script component
+    struct ScriptComponent
+    {
+        CSE_INLINE ScriptComponent(const ScriptComponent&) = default;
+        CSE_INLINE ScriptComponent() = default;
+        AssetID Script = EMPTY_ASSET;
+        LuaScript Instance;
+    };
+
     // sprite component
     struct SpriteComponent
     {
         CSE_INLINE SpriteComponent(const SpriteComponent&) = default;
         CSE_INLINE SpriteComponent() = default;
         AssetID Sprite = EMPTY_ASSET;
+        Transform3D Position;
     };
 
     // common component
@@ -88,6 +95,12 @@ namespace CSE
         CSE_INLINE void Detach()
         {
             m_Registry->remove<T>(m_EnttID);
+        }
+
+        template<typename T>
+        CSE_INLINE void Remove()
+        {
+            m_Registry->clear<T>();
         }
 
         CSE_INLINE void Destroy()

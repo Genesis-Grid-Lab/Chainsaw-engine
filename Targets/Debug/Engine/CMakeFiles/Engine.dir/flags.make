@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCSE_ENABLE_LOG -DEngine_EXPORTS -DGEN_EXPORT
 
-CXX_INCLUDES = -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src
+CXX_INCLUDES = -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include
 
 CXX_FLAGS = -g -std=gnu++17 -fPIC
 

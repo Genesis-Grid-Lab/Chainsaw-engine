@@ -49,8 +49,7 @@ public:
     }
 
     runtime_view_iterator &operator++() {
-        ++it;
-        for(const auto last = (*pools)[0]->end(); it != last && !valid(); ++it) {}
+        while(++it != (*pools)[0]->end() && !valid()) {}
         return *this;
     }
 
@@ -60,8 +59,7 @@ public:
     }
 
     runtime_view_iterator &operator--() {
-        --it;
-        for(const auto first = (*pools)[0]->begin(); it != first && !valid(); --it) {}
+        while(--it != (*pools)[0]->begin() && !valid()) {}
         return *this;
     }
 
@@ -173,18 +171,15 @@ public:
         : pools{std::move(other.pools), allocator},
           filter{std::move(other.filter), allocator} {}
 
-    /*! @brief Default destructor. */
-    ~basic_runtime_view() noexcept = default;
-
     /**
      * @brief Default copy assignment operator.
-     * @return This runtime view.
+     * @return This container.
      */
     basic_runtime_view &operator=(const basic_runtime_view &) = default;
 
     /**
      * @brief Default move assignment operator.
-     * @return This runtime view.
+     * @return This container.
      */
     basic_runtime_view &operator=(basic_runtime_view &&) noexcept(std::is_nothrow_move_assignable_v<container_type>) = default;
 

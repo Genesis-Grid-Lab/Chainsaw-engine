@@ -1341,8 +1341,12 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Context/Helpers.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Context/Inputs.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Context/Widget.h \
+  /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Camera.h \
+  /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Camera2D.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/EnttInfo.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/IControl.h \
+  /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Sprite.h \
+  /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Transform.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Editor.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/FA.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/extras/IconsFontAwesome6.h \
@@ -1361,6 +1365,8 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Application.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Context.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Interface.h \
+  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Scripts/Helpers.h \
+  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Scripts/Utilities.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Auxiliaries/Assets.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Auxiliaries/ECS.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/ChainSaw.h \
@@ -1368,13 +1374,14 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Common/Event.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Graphics/Renderer.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Graphics/Utilities/Data.h \
+  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Window/Events.h \
+  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Window/Inputs.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Window/Window.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/macro.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/version.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h \
-  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/bit.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/compressed_pair.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp \
@@ -1383,14 +1390,12 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_map.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_set.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/fwd.hpp \
-  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/table.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/attribute.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/algorithm.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/any.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/attribute.h \
-  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/bit.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/compressed_pair.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/enum.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/family.hpp \
@@ -1400,19 +1405,18 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/memory.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/monostate.hpp \
-  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/ranges.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/tuple.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_info.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_traits.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h \
-  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/macro.h \
-  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/version.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_map.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/config.h \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/macro.h \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/version.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/algorithm.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/any.hpp \
-  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/bit.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/compressed_pair.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/memory.hpp \
@@ -1443,12 +1447,12 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/mixin.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/observer.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/organizer.hpp \
-  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/ranges.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/registry.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/runtime_view.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/snapshot.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/sparse_set.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/storage.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/table.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/view.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entt.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
@@ -1462,7 +1466,6 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_set.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/any.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/attribute.h \
-  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/bit.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/enum.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp \
@@ -1484,6 +1487,7 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/template.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/type_traits.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/utility.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/platform/android-ndk-r17.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/any.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_info.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_traits.hpp \
@@ -1513,7 +1517,124 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/emitter.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/fwd.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/sigh.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/lauxlib.h \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/lua.h \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/lua.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/luaconf.h \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/lualib.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/raylib.h \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/abort.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/as_args.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/as_returns.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/assert.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/base_traits.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/bind_traits.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/bytecode.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/call.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/compatibility.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/compatibility/compat-5.3.c.h \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/compatibility/compat-5.3.h \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/compatibility/compat-5.4.h \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/compatibility/lua_version.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/config.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/coroutine.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/debug.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/demangle.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/deprecate.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/detail/build_version.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/dump_handler.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/ebco.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/environment.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/epilogue.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/error.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/error_handler.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/forward.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/forward_detail.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_result.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types_core.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types_overloaded.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types_stateful.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types_stateless.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types_templated.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/in_place.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/inheritance.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/load_result.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/lua_table.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/lua_value.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/make_reference.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/metatable.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/object.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/object_base.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/optional.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/optional_implementation.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/overload.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/pairs_iterator.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/pointer_like.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/policies.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/prologue.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/property.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/protect.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/protected_function.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/protected_function_result.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/protected_handler.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/proxy_base.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/raii.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/reference.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/resolve.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/sol.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack/detail/pairs.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check_get.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check_get_qualified.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check_get_unqualified.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check_qualified.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check_unqualified.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_core.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_field.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_get.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_get_qualified.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_get_unqualified.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_guard.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_iterator.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_pop.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_probe.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_proxy.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_proxy_base.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_push.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_reference.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/state.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/state_handling.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/state_view.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/string_view.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/table.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/table_core.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/table_iterator.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/table_proxy.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/thread.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/tie.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/traits.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/trampoline.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/tuple.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/types.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/unicode.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/unique_usertype_traits.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/unsafe_function.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/unsafe_function_result.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/userdata.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_container.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_container_launch.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_core.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_proxy.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_storage.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_traits.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/variadic_args.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/variadic_results.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/version.hpp \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/wrapper.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1625,6 +1746,8 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /usr/include/c++/14.1.1/bits/exception.h \
   /usr/include/c++/14.1.1/bits/exception_defines.h \
   /usr/include/c++/14.1.1/bits/exception_ptr.h \
+  /usr/include/c++/14.1.1/bits/forward_list.h \
+  /usr/include/c++/14.1.1/bits/forward_list.tcc \
   /usr/include/c++/14.1.1/bits/fs_dir.h \
   /usr/include/c++/14.1.1/bits/fs_fwd.h \
   /usr/include/c++/14.1.1/bits/fs_ops.h \
@@ -1723,6 +1846,7 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /usr/include/c++/14.1.1/cstdint \
   /usr/include/c++/14.1.1/cstdio \
   /usr/include/c++/14.1.1/cstdlib \
+  /usr/include/c++/14.1.1/cstring \
   /usr/include/c++/14.1.1/ctime \
   /usr/include/c++/14.1.1/cwchar \
   /usr/include/c++/14.1.1/cwctype \
@@ -1738,6 +1862,7 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /usr/include/c++/14.1.1/ext/string_conversions.h \
   /usr/include/c++/14.1.1/ext/type_traits.h \
   /usr/include/c++/14.1.1/filesystem \
+  /usr/include/c++/14.1.1/forward_list \
   /usr/include/c++/14.1.1/fstream \
   /usr/include/c++/14.1.1/functional \
   /usr/include/c++/14.1.1/initializer_list \
@@ -1755,6 +1880,7 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /usr/include/c++/14.1.1/memory \
   /usr/include/c++/14.1.1/new \
   /usr/include/c++/14.1.1/numeric \
+  /usr/include/c++/14.1.1/optional \
   /usr/include/c++/14.1.1/ostream \
   /usr/include/c++/14.1.1/pstl/execution_defs.h \
   /usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h \
@@ -1790,8 +1916,8 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /usr/include/c++/14.1.1/unordered_map \
   /usr/include/c++/14.1.1/unordered_set \
   /usr/include/c++/14.1.1/utility \
+  /usr/include/c++/14.1.1/variant \
   /usr/include/c++/14.1.1/vector \
-  /usr/include/c++/14.1.1/version \
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
@@ -1958,8 +2084,6 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/libintl.h:
 
-/usr/include/errno.h:
-
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/time_members.h:
 
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/messages_members.h:
@@ -1968,17 +2092,167 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
 
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
-
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
 
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++io.h:
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/basic_file.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/c++/14.1.1/vector:
+
+/usr/include/c++/14.1.1/utility:
+
+/usr/include/c++/14.1.1/unordered_set:
+
+/usr/include/c++/14.1.1/unordered_map:
+
+/usr/include/c++/14.1.1/system_error:
+
+/usr/include/c++/14.1.1/sstream:
+
+/usr/include/c++/14.1.1/set:
+
+/usr/include/c++/14.1.1/ratio:
+
+/usr/include/c++/14.1.1/random:
+
+/usr/include/c++/14.1.1/queue:
+
+/usr/include/time.h:
+
+/usr/include/c++/14.1.1/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/14.1.1/ostream:
+
+/usr/include/c++/14.1.1/locale:
+
+/usr/include/c++/14.1.1/iterator:
+
+/usr/include/c++/14.1.1/iosfwd:
+
+/usr/include/c++/14.1.1/ios:
+
+/usr/include/c++/14.1.1/fstream:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/opt_random.h:
+
+/usr/include/c++/14.1.1/ext/string_conversions.h:
+
+/usr/include/c++/14.1.1/ext/atomicity.h:
+
+/usr/include/c++/14.1.1/exception:
+
+/usr/include/c++/14.1.1/cwctype:
+
+/usr/include/c++/14.1.1/compare:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/include/c++/14.1.1/clocale:
+
+/usr/include/c++/14.1.1/cerrno:
+
+/usr/include/c++/14.1.1/cassert:
+
+/usr/include/c++/14.1.1/bits/unordered_set.h:
+
+/usr/include/c++/14.1.1/bits/unordered_map.h:
+
+/usr/include/c++/14.1.1/bits/streambuf_iterator.h:
+
+/usr/include/c++/14.1.1/bits/stl_uninitialized.h:
+
+/usr/include/c++/14.1.1/bits/stl_set.h:
+
+/usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/14.1.1/bits/stl_multiset.h:
+
+/usr/include/c++/14.1.1/bits/stl_list.h:
+
+/usr/include/c++/14.1.1/bits/stl_bvector.h:
+
+/usr/include/c++/14.1.1/bits/stl_algo.h:
+
+/usr/include/c++/14.1.1/bits/sstream.tcc:
+
+/usr/include/c++/14.1.1/bits/shared_ptr_base.h:
+
+/usr/include/c++/14.1.1/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/14.1.1/bits/shared_ptr.h:
+
+/usr/include/c++/14.1.1/bits/random.tcc:
+
+/usr/include/c++/14.1.1/bits/quoted_string.h:
+
+/usr/include/c++/14.1.1/bits/parse_numbers.h:
+
+/usr/include/c++/14.1.1/bits/ostream_insert.h:
+
+/usr/include/c++/14.1.1/bits/nested_exception.h:
+
+/usr/include/c++/14.1.1/bits/localefwd.h:
+
+/usr/include/c++/14.1.1/bits/stl_heap.h:
+
+/usr/include/c++/14.1.1/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/14.1.1/bits/locale_facets_nonio.h:
+
+/usr/include/c++/14.1.1/bits/locale_facets.tcc:
+
+/usr/include/c++/14.1.1/bits/locale_facets.h:
+
+/usr/include/c++/14.1.1/bits/istream.tcc:
+
+/usr/include/c++/14.1.1/bits/hashtable_policy.h:
+
+/usr/include/c++/14.1.1/bits/hash_bytes.h:
+
+/usr/include/c++/14.1.1/string:
+
+/usr/include/c++/14.1.1/bits/functional_hash.h:
+
+/usr/include/c++/14.1.1/bits/fstream.tcc:
+
+/usr/include/c++/14.1.1/bits/fs_path.h:
+
+/usr/include/c++/14.1.1/bits/fs_ops.h:
+
+/usr/include/c++/14.1.1/bits/forward_list.h:
+
+/usr/include/c++/14.1.1/bits/exception_ptr.h:
+
+/usr/include/c++/14.1.1/bits/vector.tcc:
+
+/usr/include/c++/14.1.1/bits/stl_queue.h:
+
+/usr/include/c++/14.1.1/bits/enable_special_members.h:
+
+/usr/include/c++/14.1.1/bits/codecvt.h:
+
+/usr/include/c++/14.1.1/bits/chrono.h:
+
+/usr/include/c++/14.1.1/cctype:
+
+/usr/include/c++/14.1.1/bits/charconv.h:
+
+/usr/include/c++/14.1.1/bits/char_traits.h:
+
+/usr/include/c++/14.1.1/bits/std_function.h:
+
+/usr/include/c++/14.1.1/bits/basic_string.tcc:
+
+/usr/include/c++/14.1.1/bits/basic_string.h:
+
+/usr/include/c++/14.1.1/bits/basic_ios.tcc:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/extras/FA6FreeSolidFontData.h:
-
-/usr/include/bits/time64.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/rlImGui.cpp:
 
@@ -1988,11 +2262,13 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/bits/dlfcn.h:
 
-/usr/include/c++/14.1.1/unordered_map:
-
 /usr/include/KHR/khrplatform.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512bf16vlintrin.h:
+
+/usr/include/c++/14.1.1/stdexcept:
+
+/usr/include/bits/types.h:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include/GLFW/glfw3.h:
 
@@ -2000,25 +2276,19 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_draw.cpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/sm4intrin.h:
-
 /usr/include/inttypes.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/xsavesintrin.h:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/pointer.hpp:
-
-/usr/include/bits/dl_find_object.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/xsaveoptintrin.h:
-
 /usr/include/bits/types/cookie_io_functions_t.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/xmmintrin.h:
 
-/usr/include/c++/14.1.1/bits/locale_classes.h:
+/usr/include/c++/14.1.1/ext/concurrence.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/wbnoinvdintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/vpclmulqdqintrin.h:
 
@@ -2030,31 +2300,23 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/enum.hpp:
 
-/usr/include/c++/14.1.1/bits/unordered_map.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/xtestintrin.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vnniintrin.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/smmintrin.h:
-
-/usr/include/c++/14.1.1/cassert:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/sgxintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/rtmintrin.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/prfchwintrin.h:
+/usr/include/c++/14.1.1/bitset:
 
-/usr/include/bits/waitflags.h:
+/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/emitter.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/xsavecintrin.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Editor.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/mwaitintrin.h:
-
-/usr/include/c++/14.1.1/bits/streambuf_iterator.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/mmintrin.h:
 
@@ -2072,23 +2334,19 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/ia32intrin.h:
 
-/usr/include/c++/14.1.1/cwctype:
-
 /usr/include/bits/types/struct_FILE.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/movdirintrin.h:
 
 /usr/include/bits/types/struct_timespec.h:
 
-/usr/include/c++/14.1.1/bits/basic_string.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/fxsrintrin.h:
 
-/usr/include/c++/14.1.1/bits/sstream.tcc:
+/usr/include/c++/14.1.1/cstdio:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/fmaintrin.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Engine/include/Auxiliaries/Assets.h:
-
-/usr/include/c++/14.1.1/tuple:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/emmintrin.h:
 
@@ -2100,19 +2358,19 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/include/c++/14.1.1/locale:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/clwbintrin.h:
 
 /usr/include/bits/floatn.h:
 
 /usr/include/c++/14.1.1/bits/uses_allocator.h:
 
+/usr/include/c++/14.1.1/bits/forward_list.tcc:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_probe.hpp:
+
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.cpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/gfniintrin.h:
-
-/usr/include/c++/14.1.1/bits/unordered_set.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/clflushoptintrin.h:
 
@@ -2122,55 +2380,79 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avxvnniint8intrin.h:
 
-/usr/include/c++/14.1.1/bits/shared_ptr.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vp2intersectvlintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vlintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vbmiintrin.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512ifmavlintrin.h:
-
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/utility.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/family.hpp:
 
-/usr/include/c++/14.1.1/bits/stl_numeric.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512ifmaintrin.h:
+/home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Transform.h:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/adl_pointer.hpp:
+
+/usr/include/c++/14.1.1/bits/fs_fwd.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512fp16intrin.h:
 
 /usr/include/bits/endian.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Interface.h:
 
-/usr/include/c++/14.1.1/bits/functional_hash.h:
+/usr/include/c++/14.1.1/typeinfo:
 
-/usr/include/c++/14.1.1/string:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/tsxldtrkintrin.h:
+
+/usr/include/c++/14.1.1/iostream:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512bitalgvlintrin.h:
 
 /usr/include/bits/types/sigset_t.h:
 
 /usr/include/c++/14.1.1/bits/alloc_traits.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512bf16intrin.h:
-
 /usr/include/c++/14.1.1/math.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx5124vnniwintrin.h:
+
+/usr/include/c++/14.1.1/bits/stl_deque.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vbmi2vlintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/amxcomplexintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx2intrin.h:
 
+/usr/include/c++/14.1.1/numeric:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/resolve.hpp:
+
+/usr/include/c++/14.1.1/forward_list:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/amxint8intrin.h:
+
+/usr/include/c++/14.1.1/bits/stl_relops.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/amxfp16intrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/thread.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/adxintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/cldemoteintrin.h:
 
+/usr/include/c++/14.1.1/bits/stream_iterator.h:
+
+/usr/include/sys/types.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/assert.hpp:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512cdintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/types.hpp:
 
 /usr/include/bits/types/__locale_t.h:
 
@@ -2182,19 +2464,19 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/asm/errno.h:
 
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/include/c++/14.1.1/clocale:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/pconfigintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vpopcntdqvlintrin.h:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_info.hpp:
 
-/usr/include/bits/types/clockid_t.h:
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/error_handler.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/f16cintrin.h:
+/usr/include/c++/14.1.1/bits/random.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/types/clockid_t.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vpopcntdqintrin.h:
 
@@ -2204,23 +2486,15 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vnnivlintrin.h:
 
-/usr/include/c++/14.1.1/bits/fstream.tcc:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/cmpccxaddintrin.h:
-
-/usr/include/bits/local_lim.h:
-
-/usr/include/c++/14.1.1/bits/basic_ios.tcc:
-
-/usr/include/bits/types.h:
-
-/usr/include/c++/14.1.1/stdexcept:
 
 /usr/include/bits/types/__FILE.h:
 
-/usr/include/c++/14.1.1/atomic:
+/usr/include/c++/14.1.1/codecvt:
 
-/usr/include/c++/14.1.1/tr1/gamma.tcc:
+/usr/include/features.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types_templated.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_tables.cpp:
 
@@ -2232,33 +2506,53 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/c++/14.1.1/bits/utility.h:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/state_view.hpp:
+
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/lualib.h:
 
 /usr/include/bits/thread-shared-types.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/uintrintrin.h:
 
+/usr/include/c++/14.1.1/bits/refwrap.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_get.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/deprecate.hpp:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/waitpkgintrin.h:
 
-/usr/include/c++/14.1.1/bits/locale_facets_nonio.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/sm4intrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types_stateful.hpp:
 
 /usr/include/bits/types/time_t.h:
 
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
+/usr/include/c++/14.1.1/functional:
+
+/usr/include/c++/14.1.1/filesystem:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vbmivlintrin.h:
+
 /usr/include/bits/types/__fpos64_t.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/pkuintrin.h:
-
-/usr/include/c++/14.1.1/tr1/riemann_zeta.tcc:
-
-/usr/include/bits/select.h:
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/reference.hpp:
 
 /usr/include/c++/14.1.1/bits/specfun.h:
 
 /usr/include/c++/14.1.1/bits/atomic_base.h:
 
 /usr/include/bits/struct_mutex.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/error.hpp:
 
 /usr/include/c++/14.1.1/stdlib.h:
 
@@ -2274,6 +2568,8 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/bits/math-vector.h:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/lua.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/tbmintrin.h:
 
 /usr/include/bits/types/struct_sched_param.h:
@@ -2282,25 +2578,35 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/bits/types/__sigset_t.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/xsaveintrin.h:
-
 /usr/include/c++/14.1.1/bits/stl_algobase.h:
 
 /usr/include/c++/14.1.1/cstdlib:
 
-/usr/include/time.h:
-
-/usr/include/c++/14.1.1/pstl/glue_numeric_defs.h:
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/inheritance.hpp:
 
 /usr/include/bits/stdint-least.h:
 
-/usr/include/c++/14.1.1/bits/localefwd.h:
-
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/object_base.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_push.hpp:
+
+/usr/include/c++/14.1.1/bits/ostream.tcc:
+
+/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3_loader.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/observer.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512fintrin.h:
 
 /usr/include/alloca.h:
+
+/usr/include/bits/dl_find_object.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/xsaveoptintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_proxy.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imstb_textedit.h:
 
@@ -2312,7 +2618,11 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vp2intersectintrin.h:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_container_launch.hpp:
+
 /usr/include/assert.h:
+
+/usr/include/c++/14.1.1/variant:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/float.h:
 
@@ -2320,21 +2630,17 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/wmmintrin.h:
 
-/usr/include/bits/mathcalls-narrow.h:
+/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/pointer.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/tie.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/runtime_view.hpp:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check_qualified.hpp:
+
 /usr/include/bits/types/timer_t.h:
 
-/usr/include/stdio.h:
-
 /usr/include/bits/wordsize.h:
-
-/usr/include/c++/14.1.1/bits/stl_map.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/14.1.1/bits/random.h:
 
 /usr/include/bits/stdlib-float.h:
 
@@ -2346,25 +2652,19 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/graph/dot.hpp:
 
-/usr/include/c++/14.1.1/ext/atomicity.h:
-
 /usr/include/c++/14.1.1/bits/stl_vector.h:
 
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/14.1.1/limits:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/policies.hpp:
+
 /usr/include/bits/flt-eval-method.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/src/Editor.cpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512dqintrin.h:
-
-/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3_loader.h:
-
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/observer.hpp:
-
-/usr/include/c++/14.1.1/bits/ostream.tcc:
 
 /usr/include/c++/14.1.1/bits/stl_iterator_base_types.h:
 
@@ -2379,6 +2679,12 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx5124fmapsintrin.h:
 
 /usr/include/c++/14.1.1/debug/assertions.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/demangle.hpp:
+
+/usr/include/c++/14.1.1/string_view:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/popcntintrin.h:
 
 /usr/include/c++/14.1.1/ext/numeric_traits.h:
 
@@ -2420,15 +2726,21 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/container.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512bitalgvlintrin.h:
-
-/usr/include/c++/14.1.1/iostream:
-
 /usr/include/sys/select.h:
 
-/usr/include/c++/14.1.1/bits/shared_ptr_base.h:
+/usr/include/c++/14.1.1/bits/fs_dir.h:
+
+/usr/include/c++/14.1.1/tr1/poly_hermite.tcc:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check_get.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/table.hpp:
 
 /usr/include/bits/long-double.h:
+
+/usr/include/c++/14.1.1/bits/cxxabi_init_exception.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types.hpp:
 
 /usr/include/bits/mathcalls.h:
 
@@ -2442,11 +2754,15 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/bits/posix2_lim.h:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types_stateless.hpp:
+
 /usr/include/c++/14.1.1/backward/auto_ptr.h:
 
 /usr/include/bits/typesizes.h:
 
-/usr/include/c++/14.1.1/bits/parse_numbers.h:
+/usr/include/c++/14.1.1/bits/cxxabi_forced.h:
+
+/usr/include/bits/uintn-identity.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/immintrin.h:
 
@@ -2472,21 +2788,31 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/c++/14.1.1/bit:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/wrapper.hpp:
+
 /usr/include/bits/locale.h:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/policy.hpp:
 
 /usr/include/c++/14.1.1/bits/move.h:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/load_result.hpp:
+
 /usr/include/c++/14.1.1/bits/concept_check.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types_overloaded.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vlbwintrin.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_internal.h:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/compatibility.hpp:
+
 /usr/include/bits/byteswap.h:
 
 /usr/include/c++/14.1.1/bits/cpp_type_traits.h:
+
+/usr/include/c++/14.1.1/cstring:
 
 /usr/include/bits/types/__mbstate_t.h:
 
@@ -2495,6 +2821,10 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 /usr/include/c++/14.1.1/bits/functexcept.h:
 
 /usr/include/c++/14.1.1/bits/stl_multimap.h:
+
+/usr/include/c++/14.1.1/deque:
+
+/usr/include/bits/xopen_lim.h:
 
 /usr/include/c++/14.1.1/bits/locale_conv.h:
 
@@ -2518,13 +2848,11 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/c++/14.1.1/bits/stl_iterator.h:
 
-/usr/include/c++/14.1.1/vector:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
 /usr/include/c++/14.1.1/bits/stl_pair.h:
 
 /usr/include/c++/14.1.1/bits/invoke.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/protect.hpp:
 
 /usr/include/gnu/stubs-64.h:
 
@@ -2532,7 +2860,11 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/c++/14.1.1/cmath:
 
+/usr/include/c++/14.1.1/optional:
+
 /usr/include/bits/mathcalls-helper-functions.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack.hpp:
 
 /usr/include/string.h:
 
@@ -2552,11 +2884,9 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imstb_truetype.h:
 
-/usr/include/c++/14.1.1/random:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/lzcntintrin.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512erintrin.h:
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_guard.hpp:
 
 /usr/include/c++/14.1.1/tr1/bessel_function.tcc:
 
@@ -2566,23 +2896,19 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/c++/14.1.1/tr1/beta_function.tcc:
 
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/bit.hpp:
-
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/template.hpp:
-
-/usr/include/c++/14.1.1/memory:
 
 /usr/include/c++/14.1.1/tr1/exp_integral.tcc:
 
 /usr/include/features-time64.h:
 
-/usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h:
-
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_demo.cpp:
 
-/home/nesmy/Playground/Chainsaw-engine/Editor/include/Context/Context.h:
-
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/node.hpp:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/epilogue.hpp:
 
 /usr/include/linux/limits.h:
 
@@ -2590,9 +2916,19 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/fwd.hpp:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/forward_detail.hpp:
+
 /usr/include/c++/14.1.1/cstdint:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stddef.h:
+
+/usr/include/c++/14.1.1/list:
+
+/usr/include/c++/14.1.1/type_traits:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/coroutine.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/as_args.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/prfchiintrin.h:
 
@@ -2601,6 +2937,8 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 /usr/include/bits/posix1_lim.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512pfintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_types_core.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/mixin.hpp:
 
@@ -2616,9 +2954,9 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/raylib.h:
 
-/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rlgl.h:
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/compatibility/compat-5.3.h:
 
-/usr/include/c++/14.1.1/backward/binders.h:
+/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/rlgl.h:
 
 /usr/include/c++/14.1.1/bits/allocator.h:
 
@@ -2628,8 +2966,6 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/dense_map.hpp:
 
-/usr/include/c++/14.1.1/bits/quoted_string.h:
-
 /usr/include/c++/14.1.1/bits/erase_if.h:
 
 /usr/include/c++/14.1.1/bits/exception.h:
@@ -2638,31 +2974,33 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/bits/types/mbstate_t.h:
 
-/usr/include/c++/14.1.1/bits/fs_path.h:
-
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entt.hpp:
 
 /usr/include/c++/14.1.1/bits/memoryfwd.h:
 
+/usr/include/c++/14.1.1/bits/unique_ptr.h:
+
+/home/nesmy/Playground/Chainsaw-engine/Engine/include/ChainSaw.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/environment.hpp:
+
 /usr/include/c++/14.1.1/bits/new_allocator.h:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/metatable.hpp:
+
 /usr/include/c++/14.1.1/bits/node_handle.h:
-
-/usr/include/c++/14.1.1/bits/random.tcc:
-
-/usr/include/c++/14.1.1/bits/stl_set.h:
 
 /usr/include/c++/14.1.1/bits/range_access.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Context/Events.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/variadic_results.hpp:
 
 /usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/14.1.1/bits/stl_construct.h:
 
 /usr/include/c++/14.1.1/new:
-
-/usr/include/c++/14.1.1/set:
 
 /usr/include/c++/14.1.1/bits/stl_function.h:
 
@@ -2678,17 +3016,33 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/c++/14.1.1/map:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/luaconf.h:
+
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Context/Helpers.h:
-
-/usr/include/c++/14.1.1/compare:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Context/Inputs.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Context/Widget.h:
 
+/usr/include/c++/14.1.1/backward/binders.h:
+
+/home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Camera.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/optional.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Camera2D.h:
+
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/EnttInfo.h:
+
+/usr/include/c++/14.1.1/tr1/gamma.tcc:
+
+/home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Sprite.h:
+
+/usr/include/c++/14.1.1/bits/deque.tcc:
+
+/usr/include/c++/14.1.1/bits/algorithmfwd.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avxifmaintrin.h:
 
@@ -2706,9 +3060,11 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Windows/Hierarchy.h:
 
-/usr/include/c++/14.1.1/cstddef:
+/usr/include/bits/local_lim.h:
 
-/home/nesmy/Playground/Chainsaw-engine/Editor/include/Windows/MenuBar.h:
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/bytecode.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check_get_unqualified.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Windows/Resource.h:
 
@@ -2724,9 +3080,19 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Context.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/sm3intrin.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/xsaveintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/compatibility/compat-5.3.c.h:
+
+/home/nesmy/Playground/Chainsaw-engine/Engine/include/Scripts/Helpers.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512bf16intrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/Engine/include/Scripts/Utilities.h:
 
 /usr/include/c++/14.1.1/bits/string_view.tcc:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/sm3intrin.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Engine/include/Auxiliaries/ECS.h:
 
@@ -2738,11 +3104,15 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/Engine/include/Graphics/Utilities/Data.h:
 
+/home/nesmy/Playground/Chainsaw-engine/Engine/include/Window/Events.h:
+
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/version.h:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/compressed_pair.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/fwd.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/variadic_args.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/iterator.hpp:
 
@@ -2758,13 +3128,11 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/fwd.hpp:
 
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/container/table.hpp:
-
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/algorithm.hpp:
 
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/monostate.hpp:
+/usr/include/c++/14.1.1/cwchar:
 
-/usr/include/c++/14.1.1/bits/nested_exception.h:
+/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/hashed_string.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/rdseedintrin.h:
 
@@ -2780,27 +3148,29 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/delegate.hpp:
 
+/usr/include/c++/14.1.1/bits/postypes.h:
+
+/usr/include/c++/14.1.1/bits/list.tcc:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/hresetintrin.h:
+
+/usr/include/bits/endianness.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/fwd.hpp:
+
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/component.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/locator/locator.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/fwd.hpp:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack/detail/pairs.hpp:
+
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/group.hpp:
-
-/usr/include/c++/14.1.1/iomanip:
-
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/ranges.hpp:
-
-/usr/include/c++/14.1.1/numeric:
-
-/usr/include/c++/14.1.1/sstream:
 
 /usr/include/bits/iscanonical.h:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/handle.hpp:
-
-/usr/include/c++/14.1.1/bits/ostream_insert.h:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/helper.hpp:
 
@@ -2808,13 +3178,13 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/sparse_set.hpp:
 
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/ranges.hpp:
-
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/storage.hpp:
 
-/usr/include/c++/14.1.1/cerrno:
+/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/entity/table.hpp:
 
-/usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h:
+/usr/include/c++/14.1.1/memory:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/proxy_base.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/factory.hpp:
 
@@ -2824,15 +3194,11 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/asm-generic/errno.h:
 
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/emitter.hpp:
-
-/usr/include/c++/14.1.1/bitset:
-
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/meta/range.hpp:
 
-/usr/include/c++/14.1.1/bits/charconv.h:
+/usr/include/c++/14.1.1/bits/locale_classes.tcc:
 
-/usr/include/c++/14.1.1/cctype:
+/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/platform/android-ndk-r17.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/poly/poly.hpp:
 
@@ -2844,6 +3210,8 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/resource/fwd.hpp:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check_unqualified.hpp:
+
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/config/macro.h:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/resource/loader.hpp:
@@ -2854,11 +3222,215 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/dispatcher.hpp:
 
+/home/nesmy/Playground/Chainsaw-engine/Engine/include/Window/Inputs.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/lauxlib.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512ifmavlintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/lua.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/abort.hpp:
+
+/usr/include/c++/14.1.1/bits/locale_classes.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/as_returns.hpp:
+
+/usr/include/c++/14.1.1/atomic:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/base_traits.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/bind_traits.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/call.hpp:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/compatibility/compat-5.4.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp:
+
+/usr/include/bits/types/struct_tm.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/compatibility/lua_version.hpp:
+
+/usr/include/c++/14.1.1/bits/stl_numeric.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512ifmaintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/config.hpp:
+
+/usr/include/c++/14.1.1/bits/ios_base.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/lwpintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/lua_table.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/unique_usertype_traits.hpp:
+
+/usr/include/c++/14.1.1/bits/streambuf.tcc:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/debug.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/detail/build_version.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/prfchwintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/lua_value.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/dump_handler.hpp:
+
+/usr/include/c++/14.1.1/bits/stl_map.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/ebco.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/forward.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/Editor/include/Context/Context.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/pkuintrin.h:
+
+/usr/include/c++/14.1.1/tr1/riemann_zeta.tcc:
+
+/usr/include/bits/select.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/in_place.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/make_reference.hpp:
+
+/usr/include/stdio.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/object.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/overload.hpp:
+
+/usr/include/c++/14.1.1/pstl/glue_memory_defs.h:
+
+/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_widgets.cpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/optional_implementation.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/f16cintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/pairs_iterator.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/pointer_like.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/prologue.hpp:
+
+/usr/include/c++/14.1.1/cstddef:
+
+/home/nesmy/Playground/Chainsaw-engine/Editor/include/Windows/MenuBar.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/protected_function_result.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/protected_handler.hpp:
+
+/usr/include/c++/14.1.1/iomanip:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/raii.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/sol.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check_get_qualified.hpp:
+
+/usr/include/c++/14.1.1/bits/stl_tempbuf.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/unicode.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_core.hpp:
+
+/usr/include/c++/14.1.1/bits/uniform_int_dist.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_get_qualified.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_get_unqualified.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_field.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_check.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_iterator.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_pop.hpp:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++io.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_proxy_base.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/stack_reference.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/state_handling.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/property.hpp:
+
+/usr/include/c++/14.1.1/algorithm:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vnniintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/string_view.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/version.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/table_core.hpp:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/table_iterator.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/table_proxy.hpp:
+
+/usr/include/c++/14.1.1/istream:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/traits.hpp:
+
+/usr/include/errno.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/trampoline.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/tuple.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/unsafe_function.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/unsafe_function_result.hpp:
+
+/usr/include/bits/waitflags.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/userdata.hpp:
+
+/usr/include/c++/14.1.1/tuple:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/function_result.hpp:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avxvnniint16intrin.h:
 
 /usr/include/asm-generic/errno-base.h:
 
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_container.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512erintrin.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_core.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/monostate.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_proxy.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/protected_function.hpp:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_storage.hpp:
+
+/usr/include/bits/time64.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/usertype_traits.hpp:
+
 /usr/include/bits/setjmp.h:
+
+/home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/state.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/usermsrintrin.h:
 
@@ -2866,202 +3438,12 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/bits/types/error_t.h:
 
-/usr/include/c++/14.1.1/bits/vector.tcc:
-
-/usr/include/c++/14.1.1/bits/enable_special_members.h:
-
-/usr/include/c++/14.1.1/bits/stl_queue.h:
-
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/utility.hpp:
-
-/usr/include/bits/types/struct_tm.h:
-
 /usr/include/bits/stdint-intn.h:
 
 /usr/include/bits/wctype-wchar.h:
-
-/usr/include/c++/14.1.1/algorithm:
-
-/usr/include/c++/14.1.1/bits/deque.tcc:
-
-/usr/include/c++/14.1.1/bits/algorithmfwd.h:
 
 /usr/include/c++/14.1.1/bits/allocated_ptr.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512bitalgintrin.h:
 
 /usr/include/c++/14.1.1/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/14.1.1/bits/std_function.h:
-
-/usr/include/c++/14.1.1/bits/basic_string.tcc:
-
-/usr/include/c++/14.1.1/bits/char_traits.h:
-
-/usr/include/c++/14.1.1/unordered_set:
-
-/usr/include/c++/14.1.1/bits/chrono.h:
-
-/usr/include/c++/14.1.1/bits/codecvt.h:
-
-/usr/include/c++/14.1.1/bits/stl_bvector.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/14.1.1/bits/cxxabi_forced.h:
-
-/usr/include/c++/14.1.1/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/14.1.1/bits/exception_ptr.h:
-
-/usr/include/c++/14.1.1/tr1/poly_hermite.tcc:
-
-/usr/include/c++/14.1.1/bits/fs_dir.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512fp16intrin.h:
-
-/usr/include/c++/14.1.1/bits/fs_fwd.h:
-
-/usr/include/c++/14.1.1/bits/fs_ops.h:
-
-/home/nesmy/Playground/Chainsaw-engine/Engine/include/ChainSaw.h:
-
-/usr/include/c++/14.1.1/bits/unique_ptr.h:
-
-/usr/include/c++/14.1.1/bits/hash_bytes.h:
-
-/usr/include/c++/14.1.1/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/14.1.1/bits/hashtable_policy.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/lwpintrin.h:
-
-/usr/include/c++/14.1.1/bits/ios_base.h:
-
-/usr/include/c++/14.1.1/bits/istream.tcc:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/hresetintrin.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/c++/14.1.1/bits/postypes.h:
-
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/signal/fwd.hpp:
-
-/usr/include/c++/14.1.1/bits/list.tcc:
-
-/usr/include/c++/14.1.1/bits/locale_classes.tcc:
-
-/usr/include/c++/14.1.1/bits/locale_facets.h:
-
-/usr/include/c++/14.1.1/bits/locale_facets.tcc:
-
-/usr/include/bits/sched.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/c++/14.1.1/bits/refwrap.h:
-
-/usr/include/c++/14.1.1/bits/stl_algo.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/tsxldtrkintrin.h:
-
-/usr/include/c++/14.1.1/typeinfo:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vbmi2vlintrin.h:
-
-/usr/include/c++/14.1.1/bits/stl_deque.h:
-
-/usr/include/c++/14.1.1/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/14.1.1/bits/stl_heap.h:
-
-/usr/include/c++/14.1.1/bits/stl_list.h:
-
-/usr/include/c++/14.1.1/bits/stl_multiset.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/amxfp16intrin.h:
-
-/usr/include/c++/14.1.1/bits/stl_relops.h:
-
-/usr/include/c++/14.1.1/bits/stl_tempbuf.h:
-
-/usr/include/c++/14.1.1/bits/stl_uninitialized.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/c++/14.1.1/bits/stream_iterator.h:
-
-/usr/include/c++/14.1.1/bits/streambuf.tcc:
-
-/usr/include/c++/14.1.1/bits/uniform_int_dist.h:
-
-/usr/include/features.h:
-
-/usr/include/c++/14.1.1/codecvt:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/fmaintrin.h:
-
-/usr/include/c++/14.1.1/cstdio:
-
-/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/hashed_string.hpp:
-
-/usr/include/c++/14.1.1/cwchar:
-
-/usr/include/bits/xopen_lim.h:
-
-/usr/include/c++/14.1.1/deque:
-
-/usr/include/c++/14.1.1/ostream:
-
-/usr/include/c++/14.1.1/exception:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/wbnoinvdintrin.h:
-
-/usr/include/c++/14.1.1/ext/concurrence.h:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/opt_random.h:
-
-/usr/include/c++/14.1.1/ext/string_conversions.h:
-
-/usr/include/c++/14.1.1/functional:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512vbmivlintrin.h:
-
-/usr/include/c++/14.1.1/filesystem:
-
-/usr/include/c++/14.1.1/fstream:
-
-/usr/include/c++/14.1.1/ios:
-
-/usr/include/c++/14.1.1/iosfwd:
-
-/usr/include/c++/14.1.1/istream:
-
-/usr/include/c++/14.1.1/iterator:
-
-/usr/include/c++/14.1.1/type_traits:
-
-/usr/include/c++/14.1.1/list:
-
-/home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_widgets.cpp:
-
-/usr/include/c++/14.1.1/pstl/glue_memory_defs.h:
-
-/usr/include/c++/14.1.1/queue:
-
-/usr/include/c++/14.1.1/ratio:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/popcntintrin.h:
-
-/usr/include/c++/14.1.1/string_view:
-
-/usr/include/c++/14.1.1/system_error:
-
-/usr/include/c++/14.1.1/utility:
-
-/usr/include/c++/14.1.1/version:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/basic_file.h:

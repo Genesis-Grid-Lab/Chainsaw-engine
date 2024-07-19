@@ -1,11 +1,17 @@
 # Crash Course: cooperative scheduler
 
+<!--
+@cond TURN_OFF_DOXYGEN
+-->
 # Table of Contents
 
 * [Introduction](#introduction)
 * [The process](#the-process)
   * [Adaptor](#adaptor)
 * [The scheduler](#the-scheduler)
+<!--
+@endcond TURN_OFF_DOXYGEN
+-->
 
 # Introduction
 

@@ -1,5 +1,6 @@
 #pragma once
 #include "Context/Context.h"
+#include "Context/Helpers.h"
 #include "Vendors/imgui/imgui.h"
 #include "raylib.h"
 
@@ -7,8 +8,8 @@ struct ResourceWindow : IWidget
 {
     CSE_INLINE ResourceWindow(GuiContext* context): IWidget(context)
     {
-        //m_IconImage.Load("Resources/Icons/asset.png");
-        //m_Icon = (ImTextureID)m_IconImage.ID();
+        m_IconImage = LoadTexture("Resources/Icons/asset.png");
+        m_Icon = (ImTextureID)&m_IconImage;
     }
 
     CSE_INLINE void OnShow(GuiContext* context) override
@@ -18,8 +19,19 @@ struct ResourceWindow : IWidget
             int nbrColumn = (ImGui::GetContentRegionAvail().x/ASSET_SIZE) + 1;
             int columnCounter = 1;
             int rowCounter = 1;
-            if(ImGui::BeginTable("", nbrColumn))
+            if(ImGui::BeginTable("open", nbrColumn))
             {
+                context->AssetView([&] (auto* asset)
+                    {
+                        {
+                            // show asset icon
+                            bool iSClicked = ImGui::ImageButtonEx(asset->UID,
+                                m_Icon, ImVec2(ASSET_SIZE, ASSET_SIZE), ImVec2(0, 1),
+                                ImVec2(1, 0), ImVec4(0, 0, 0, 1), ImVec4(1, 1, 1, 1));
+                            ImGui::Text(asset->Name.c_str());
+                            ImGui::TableNextColumn();
+                        }
+                    });
                 ImGui::EndTable();
             }
         }
@@ -29,4 +41,5 @@ struct ResourceWindow : IWidget
     private:
     Texture2D m_IconImage;
     ImTextureID m_Icon;
+    AssetID m_Selected;
 };

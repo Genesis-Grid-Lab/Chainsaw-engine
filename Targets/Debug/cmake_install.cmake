@@ -59,6 +59,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/yaml/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/lua/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/vendor/sol2/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/Engine/cmake_install.cmake")
 endif()
 

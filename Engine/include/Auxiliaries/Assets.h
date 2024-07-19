@@ -1,5 +1,6 @@
 #pragma once
-#include "Common/Core.h"
+#include "../Scripts/Utilities.h"
+#include "Graphics/Utilities/Data.h"
 
 namespace CSE {
 
@@ -14,6 +15,7 @@ namespace CSE {
         TEXTURE,
         SPRITE,
         SCENE,
+        SCRIPT,
     };
 
     // define the base Asset Structure
@@ -42,6 +44,11 @@ namespace CSE {
 
     };
 
+    struct ScriptAsset : Asset
+    {
+
+    };
+
     // define an unordered map to store assets based on their type and UID
     using SharedAsset = std::shared_ptr<Asset>;
     using AssetMap = std::unordered_map<AssetID, SharedAsset>;
@@ -53,6 +60,8 @@ namespace CSE {
         {
             // ass default asset for each type
             AddEmpty<TextureAsset>();
+            AddEmpty<SceneAsset>();
+            AddEmpty<ScriptAsset>();
         }
 
         CSE_INLINE auto AddTexture(AssetID uid, const std::string& source)
@@ -62,6 +71,14 @@ namespace CSE {
             asset->Type = AssetType::TEXTURE;
             Add(uid, source, asset);
 
+            return asset;
+        }
+
+        CSE_INLINE auto AddScript(AssetID uid, const std::string& source)
+        {
+            auto asset = std::make_shared<ScriptAsset>();
+            asset->Type = AssetType::SCRIPT;
+            Add(uid, source, asset);
             return asset;
         }
 

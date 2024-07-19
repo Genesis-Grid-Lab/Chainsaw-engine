@@ -1,6 +1,7 @@
 #pragma once
 #include "Auxiliaries/ECS.h"
 #include "Context/Context.h"
+#include "Vendors/FA.h"
 #include "Vendors/imgui/imgui.h"
 #include "Windows/MenuList.h"
 
@@ -59,9 +60,28 @@ struct HierarchyWindow : IWidget
                     {
                         if(ImGui::BeginMenu("##"))
                         {
+                            if(ImGui::MenuItem(ICON_FA_FORWARD " Add Camera"))
+           					{
+          						entity.template Attach<CameraComponent>();
+           					}
+                            if(ImGui::MenuItem(ICON_FA_FORWARD, " Add Camera2D"))
+                            {
+                                entity.template Attach<Camera2DComponent>();
+                            }
+                            if(ImGui::MenuItem(ICON_FA_FORWARD, " Add Sprite"))
+                            {
+                                entity.template Attach<SpriteComponent>();
+                            }
+                            if(ImGui::MenuItem(ICON_FA_FORWARD, " Add Transform"))
+                            {
+                                entity.template Attach<TransformComponent>();
+                            }
                             ImGui::EndMenu();
                         }
-
+                        if(ImGui::Selectable(ICON_FA_RECYCLE "\tDelete"))
+                        {
+					       entity.Destroy();
+                        }
                         ImGui::EndPopup();
                     }
 

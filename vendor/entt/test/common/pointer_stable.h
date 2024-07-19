@@ -8,11 +8,11 @@ struct pointer_stable {
     int value{};
 };
 
-[[nodiscard]] inline bool operator==(const pointer_stable &lhs, const pointer_stable &rhs) {
+inline bool operator==(const pointer_stable &lhs, const pointer_stable &rhs) {
     return lhs.value == rhs.value;
 }
 
-[[nodiscard]] inline bool operator<(const pointer_stable &lhs, const pointer_stable &rhs) {
+inline bool operator<(const pointer_stable &lhs, const pointer_stable &rhs) {
     return lhs.value < rhs.value;
 }
 

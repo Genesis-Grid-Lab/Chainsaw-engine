@@ -1,4 +1,3 @@
-#include <algorithm>
 #include <array>
 #include <vector>
 #include <gtest/gtest.h>
@@ -12,7 +11,9 @@ TEST(Algorithm, StdSort) {
 
     sort(arr.begin(), arr.end());
 
-    ASSERT_TRUE(std::is_sorted(arr.begin(), arr.end()));
+    for(auto it = arr.begin(), last = (arr.end() - 1u); it != last; ++it) {
+        ASSERT_LT(*it, *(it + 1u));
+    }
 }
 
 TEST(Algorithm, StdSortBoxedInt) {
@@ -24,14 +25,9 @@ TEST(Algorithm, StdSortBoxedInt) {
         return lhs.value > rhs.value;
     });
 
-    ASSERT_TRUE(std::is_sorted(arr.rbegin(), arr.rend()));
-}
-
-TEST(Algorithm, StdSortEmptyContainer) {
-    std::vector<int> vec{};
-    const entt::std_sort sort;
-    // this should crash with asan enabled if we break the constraint
-    sort(vec.begin(), vec.end());
+    for(auto it = arr.begin(), last = (arr.end() - 1u); it != last; ++it) {
+        ASSERT_GT(it->value, (it + 1u)->value);
+    }
 }
 
 TEST(Algorithm, InsertionSort) {
@@ -40,7 +36,9 @@ TEST(Algorithm, InsertionSort) {
 
     sort(arr.begin(), arr.end());
 
-    ASSERT_TRUE(std::is_sorted(arr.begin(), arr.end()));
+    for(auto it = arr.begin(), last = (arr.end() - 1u); it != last; ++it) {
+        ASSERT_LT(*it, *(it + 1u));
+    }
 }
 
 TEST(Algorithm, InsertionSortBoxedInt) {
@@ -51,7 +49,9 @@ TEST(Algorithm, InsertionSortBoxedInt) {
         return lhs.value > rhs.value;
     });
 
-    ASSERT_TRUE(std::is_sorted(arr.rbegin(), arr.rend()));
+    for(auto it = arr.begin(), last = (arr.end() - 1u); it != last; ++it) {
+        ASSERT_GT(it->value, (it + 1u)->value);
+    }
 }
 
 TEST(Algorithm, InsertionSortEmptyContainer) {
@@ -69,7 +69,9 @@ TEST(Algorithm, RadixSort) {
         return value;
     });
 
-    ASSERT_TRUE(std::is_sorted(arr.begin(), arr.end()));
+    for(auto it = arr.begin(), last = (arr.end() - 1u); it != last; ++it) {
+        ASSERT_LT(*it, *(it + 1u));
+    }
 }
 
 TEST(Algorithm, RadixSortBoxedInt) {
@@ -80,7 +82,9 @@ TEST(Algorithm, RadixSortBoxedInt) {
         return instance.value;
     });
 
-    ASSERT_TRUE(std::is_sorted(arr.rbegin(), arr.rend()));
+    for(auto it = arr.begin(), last = (arr.end() - 1u); it != last; ++it) {
+        ASSERT_GT(it->value, (it + 1u)->value);
+    }
 }
 
 TEST(Algorithm, RadixSortEmptyContainer) {

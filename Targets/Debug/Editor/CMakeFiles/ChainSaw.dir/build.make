@@ -222,6 +222,8 @@ bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o
 bin/ChainSaw: Editor/CMakeFiles/ChainSaw.dir/build.make
 bin/ChainSaw: bin/libEngine.so
 bin/ChainSaw: lib/libraylib.a
+bin/ChainSaw: lib/libyaml-cppd.a
+bin/ChainSaw: lib/liblua_static.a
 bin/ChainSaw: /usr/lib/libOpenGL.so
 bin/ChainSaw: /usr/lib/libGLX.so
 bin/ChainSaw: /usr/lib/libGLU.so

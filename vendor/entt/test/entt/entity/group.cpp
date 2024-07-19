@@ -7,7 +7,6 @@
 #include <gtest/gtest.h>
 #include <entt/entity/group.hpp>
 #include <entt/entity/registry.hpp>
-#include <entt/entity/view.hpp>
 #include "../../common/boxed_type.h"
 #include "../../common/config.h"
 #include "../../common/empty.h"
@@ -318,7 +317,7 @@ TEST(NonOwningGroup, SortAsAPool) {
         ASSERT_EQ(group.get<const int>(entity), --ival);
     }
 
-    registry.sort<unsigned int>(std::less{});
+    registry.sort<unsigned int>(std::less<unsigned int>{});
     const entt::sparse_set &other = *group.storage<unsigned int>();
     group.sort_as(other.begin(), other.end());
 
@@ -404,7 +403,7 @@ TEST(NonOwningGroup, ConstNonConstAndAllInBetween) {
         testing::StaticAssertTypeEq<decltype(c), const char &>();
     });
 
-    for([[maybe_unused]] auto [entt, iv, cv]: group.each()) {
+    for(auto [entt, iv, cv]: group.each()) {
         testing::StaticAssertTypeEq<decltype(entt), entt::entity>();
         testing::StaticAssertTypeEq<decltype(iv), int &>();
         testing::StaticAssertTypeEq<decltype(cv), const char &>();
@@ -1212,7 +1211,7 @@ TEST(OwningGroup, ConstNonConstAndAllInBetween) {
         testing::StaticAssertTypeEq<decltype(f), const float &>();
     });
 
-    for([[maybe_unused]] auto [entt, iv, cv, dv, fv]: group.each()) {
+    for(auto [entt, iv, cv, dv, fv]: group.each()) {
         testing::StaticAssertTypeEq<decltype(entt), entt::entity>();
         testing::StaticAssertTypeEq<decltype(iv), int &>();
         testing::StaticAssertTypeEq<decltype(cv), const char &>();

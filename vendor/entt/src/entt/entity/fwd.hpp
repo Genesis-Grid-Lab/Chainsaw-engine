@@ -4,7 +4,6 @@
 #include <cstdint>
 #include <memory>
 #include <type_traits>
-#include "../config/config.h"
 #include "../core/fwd.hpp"
 #include "../core/type_traits.hpp"
 
@@ -29,6 +28,9 @@ class basic_sparse_set;
 template<typename Type, typename = entity, typename = std::allocator<Type>, typename = void>
 class basic_storage;
 
+template<typename, typename = std::allocator<void>>
+class basic_table;
+
 template<typename, typename>
 class basic_sigh_mixin;
 
@@ -44,7 +46,7 @@ class basic_runtime_view;
 template<typename, typename, typename>
 class basic_group;
 
-template<typename, typename = std::allocator<void>>
+template<typename, typename Mask = std::uint32_t, typename = std::allocator<Mask>>
 class basic_observer;
 
 template<typename>
@@ -71,6 +73,13 @@ using sparse_set = basic_sparse_set<>;
  */
 template<typename Type>
 using storage = basic_storage<Type>;
+
+/**
+ * @brief Alias declaration for the most common use case.
+ * @tparam Type Element types.
+ */
+template<typename... Type>
+using table = basic_table<type_list<Type...>>;
 
 /**
  * @brief Alias declaration for the most common use case.
@@ -130,7 +139,7 @@ using const_runtime_view = basic_runtime_view<const sparse_set>;
 template<typename... Type>
 struct exclude_t final: type_list<Type...> {
     /*! @brief Default constructor. */
-    explicit constexpr exclude_t() = default;
+    explicit constexpr exclude_t() {}
 };
 
 /**
@@ -147,7 +156,7 @@ inline constexpr exclude_t<Type...> exclude{};
 template<typename... Type>
 struct get_t final: type_list<Type...> {
     /*! @brief Default constructor. */
-    explicit constexpr get_t() = default;
+    explicit constexpr get_t() {}
 };
 
 /**
@@ -164,7 +173,7 @@ inline constexpr get_t<Type...> get{};
 template<typename... Type>
 struct owned_t final: type_list<Type...> {
     /*! @brief Default constructor. */
-    explicit constexpr owned_t() = default;
+    explicit constexpr owned_t() {}
 };
 
 /**
@@ -216,7 +225,7 @@ struct type_list_transform<owned_t<Type...>, Op> {
 template<typename Type, typename Entity = entity, typename Allocator = std::allocator<Type>, typename = void>
 struct storage_type {
     /*! @brief Type-to-storage conversion result. */
-    using type = ENTT_STORAGE(sigh_mixin, basic_storage<Type, Entity, Allocator>);
+    using type = sigh_mixin<basic_storage<Type, Entity, Allocator>>;
 };
 
 /**
