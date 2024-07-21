@@ -2773,6 +2773,13 @@ bool IsKeyPressed(int key)
     return pressed;
 }
 
+//typedef void(*RAYtes)(int key);
+
+/*void SetKeyPressedCallback(void(*callback)(int key))
+{
+    callback(int) = GetKeyPressed();
+}*/
+
 // Check if a key has been pressed again
 bool IsKeyPressedRepeat(int key)
 {

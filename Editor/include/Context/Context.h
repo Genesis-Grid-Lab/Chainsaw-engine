@@ -1,6 +1,9 @@
 #pragma once
 #include "Events.h"
+#include "GLFW/glfw3.h"
 #include "Helpers.h"
+#include "Vendors/imgui/imgui_impl_glfw.h"
+#include "Vendors/imgui/imgui_impl_opengl3.h"
 #include "Vendors/imgui/imgui_impl_raylib.h"
 #include "Widget.h"
 
@@ -27,6 +30,8 @@ class GuiContext : public AppInterface
         io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;
         io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
 
+        //ImGui_ImplOpenGL3_Init(SHADER_VERSION);
+        ImGui_ImplGlfw_InitForOpenGL((GLFWwindow*)GetWindowHandle(), true);
         ImGui_ImplRaylib_Init();
 
         ImFontConfig fontConfig;
@@ -41,6 +46,7 @@ class GuiContext : public AppInterface
         // small font and icon
         io.Fonts->AddFontFromFileTTF(FONT_FILE, SMALL_FONT_SIZE);
         io.Fonts->AddFontFromFileTTF(ICON_FONT, SMALL_FONT_SIZE, &fontConfig, iconRange);
+
 
         Imgui_ImplRaylib_BuildFontAtlas();
 
@@ -59,9 +65,11 @@ class GuiContext : public AppInterface
 
     CSE_INLINE void OnUpdate() override final
     {
-        ImGui_ImplRaylib_ProcessEvents();
+        //ImGui_ImplOpenGL3_NewFrame();
+        ImGui_ImplGlfw_NewFrame();
+        //ImGui_ImplRaylib_ProcessEvents();
         // Initialize ImGui for the frame
-        ImGui_ImplRaylib_NewFrame();
+        //ImGui_ImplRaylib_NewFrame();
         ImGui::NewFrame();
 
         // set up the main viewport
@@ -108,12 +116,13 @@ class GuiContext : public AppInterface
 
         if(ImGui::IsKeyPressed(ImGuiKey_ModAlt)  && ImGui::IsKeyPressed(ImGuiKey_F4))
         {
-            // windowshouldclose
+            glfwSetWindowShouldClose((GLFWwindow*)GetWindowHandle(), true);
         }
 
         // Render ImGui draw data
         ImGui::Render();
         ImGui_ImplRaylib_RenderDrawData(ImGui::GetDrawData());
+        //ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
     }
 
     template<typename T, typename... Args>

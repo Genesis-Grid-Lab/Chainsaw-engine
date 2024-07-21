@@ -3,6 +3,7 @@
 #include "Controls/Camera.h"
 #include "Controls/Camera2D.h"
 #include "Controls/EnttInfo.h"
+#include "Controls/Script.h"
 #include "Controls/Sprite.h"
 #include "Controls/Transform.h"
 
@@ -15,6 +16,7 @@ struct InspectorWindow : IWidget
         m_Widgets.push_back(context->CreateWidget<TransformControl>());
         m_Widgets.push_back(context->CreateWidget<Camera2DControl>());
         m_Widgets.push_back(context->CreateWidget<SpriteControl>());
+        m_Widgets.push_back(context->CreateWidget<ScriptControl>());
     }
 
     CSE_INLINE void OnShow(GuiContext* context) override

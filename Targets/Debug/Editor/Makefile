@@ -412,6 +412,30 @@ src/Editor.cpp.s:
 	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.s
 .PHONY : src/Editor.cpp.s
 
+src/ImGuiImpl_CS.o: src/ImGuiImpl_CS.cpp.o
+.PHONY : src/ImGuiImpl_CS.o
+
+# target to build an object file
+src/ImGuiImpl_CS.cpp.o:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/src/ImGuiImpl_CS.cpp.o
+.PHONY : src/ImGuiImpl_CS.cpp.o
+
+src/ImGuiImpl_CS.i: src/ImGuiImpl_CS.cpp.i
+.PHONY : src/ImGuiImpl_CS.i
+
+# target to preprocess a source file
+src/ImGuiImpl_CS.cpp.i:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/src/ImGuiImpl_CS.cpp.i
+.PHONY : src/ImGuiImpl_CS.cpp.i
+
+src/ImGuiImpl_CS.s: src/ImGuiImpl_CS.cpp.s
+.PHONY : src/ImGuiImpl_CS.s
+
+# target to generate assembly for a file
+src/ImGuiImpl_CS.cpp.s:
+	cd /home/nesmy/Playground/Chainsaw-engine/Targets/Debug && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/src/ImGuiImpl_CS.cpp.s
+.PHONY : src/ImGuiImpl_CS.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -454,6 +478,9 @@ help:
 	@echo "... src/Editor.o"
 	@echo "... src/Editor.i"
 	@echo "... src/Editor.s"
+	@echo "... src/ImGuiImpl_CS.o"
+	@echo "... src/ImGuiImpl_CS.i"
+	@echo "... src/ImGuiImpl_CS.s"
 .PHONY : help
 
 

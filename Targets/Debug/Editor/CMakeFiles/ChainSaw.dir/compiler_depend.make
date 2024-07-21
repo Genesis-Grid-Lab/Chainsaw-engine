@@ -1345,6 +1345,7 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Camera2D.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/EnttInfo.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/IControl.h \
+  /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Script.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Sprite.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Transform.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Editor.h \
@@ -1352,6 +1353,8 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/extras/IconsFontAwesome6.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imconfig.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui.h \
+  /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_glfw.h \
+  /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_opengl3.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_impl_raylib.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imgui_internal.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/imstb_textedit.h \
@@ -1362,6 +1365,7 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Windows/MenuList.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Windows/Resource.h \
   /home/nesmy/Playground/Chainsaw-engine/Editor/include/Windows/Viewport.h \
+  /home/nesmy/Playground/Chainsaw-engine/Engine/include/Scripts/Context.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Application.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Context.h \
   /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Interface.h \
@@ -1522,6 +1526,7 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/lua.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/luaconf.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include/lualib.h \
+  /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include/GLFW/glfw3.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/raylib.h \
   /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/abort.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/as_args.hpp \
@@ -1635,6 +1640,9 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/variadic_results.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/version.hpp \
   /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include/sol/wrapper.hpp \
+  /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h \
+  /usr/include/KHR/khrplatform.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -2069,6 +2077,11 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/xsavesintrin.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/xtestintrin.h
 
+Editor/CMakeFiles/ChainSaw.dir/src/ImGuiImpl_CS.cpp.o: /home/nesmy/Playground/Chainsaw-engine/Editor/src/ImGuiImpl_CS.cpp \
+  /usr/include/stdc-predef.h
+
+
+/home/nesmy/Playground/Chainsaw-engine/Editor/src/ImGuiImpl_CS.cpp:
 
 /usr/include/wctype.h:
 
@@ -2252,6 +2265,8 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/c++/14.1.1/bits/basic_ios.tcc:
 
+/usr/include/c++/14.1.1/bits/basic_ios.h:
+
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/extras/FA6FreeSolidFontData.h:
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Vendors/imgui/rlImGui.cpp:
@@ -2411,6 +2426,10 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512bitalgvlintrin.h:
 
 /usr/include/bits/types/sigset_t.h:
+
+/usr/include/c++/14.1.1/bits/atomic_lockfree_defines.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512bitalgintrin.h:
 
 /usr/include/c++/14.1.1/bits/alloc_traits.h:
 
@@ -2842,6 +2861,8 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /usr/include/c++/14.1.1/tr1/poly_laguerre.tcc:
 
+/home/nesmy/Playground/Chainsaw-engine/Editor/include/Controls/Script.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/raointintrin.h:
 
 /usr/include/c++/14.1.1/bits/std_abs.h:
@@ -3070,6 +3091,8 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 
 /home/nesmy/Playground/Chainsaw-engine/Editor/include/Windows/Viewport.h:
 
+/home/nesmy/Playground/Chainsaw-engine/Engine/include/Scripts/Context.h:
+
 /usr/include/c++/14.1.1/streambuf:
 
 /home/nesmy/Playground/Chainsaw-engine/Engine/include/Application/Application.h:
@@ -3119,8 +3142,6 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/process/process.hpp:
 
 /home/nesmy/Playground/Chainsaw-engine/vendor/entt/src/entt/core/type_traits.hpp:
-
-/usr/include/c++/14.1.1/bits/basic_ios.h:
 
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
@@ -3443,7 +3464,3 @@ Editor/CMakeFiles/ChainSaw.dir/src/Editor.cpp.o: /home/nesmy/Playground/Chainsaw
 /usr/include/bits/wctype-wchar.h:
 
 /usr/include/c++/14.1.1/bits/allocated_ptr.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/avx512bitalgintrin.h:
-
-/usr/include/c++/14.1.1/bits/atomic_lockfree_defines.h:

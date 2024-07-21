@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ChainSaw.dir/include/Vendors/imgui/rlImGui.cpp.o.d"
   "CMakeFiles/ChainSaw.dir/src/Editor.cpp.o"
   "CMakeFiles/ChainSaw.dir/src/Editor.cpp.o.d"
+  "CMakeFiles/ChainSaw.dir/src/ImGuiImpl_CS.cpp.o"
+  "CMakeFiles/ChainSaw.dir/src/ImGuiImpl_CS.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

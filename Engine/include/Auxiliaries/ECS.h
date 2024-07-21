@@ -32,6 +32,7 @@ namespace CSE
         CSE_INLINE ScriptComponent(const ScriptComponent&) = default;
         CSE_INLINE ScriptComponent() = default;
         AssetID Script = EMPTY_ASSET;
+        std::string Source;
         LuaScript Instance;
     };
 
@@ -40,7 +41,7 @@ namespace CSE
     {
         CSE_INLINE SpriteComponent(const SpriteComponent&) = default;
         CSE_INLINE SpriteComponent() = default;
-        AssetID Sprite = EMPTY_ASSET;
+        TextureAsset Sprite;
         Transform3D Position;
     };
 

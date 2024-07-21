@@ -1,4 +1,6 @@
 #pragma once
+#include "Auxiliaries/Assets.h"
+#include "Common/Core.h"
 #include "Context/Context.h"
 #include "Context/Helpers.h"
 #include "Vendors/imgui/imgui.h"
@@ -9,7 +11,7 @@ struct ResourceWindow : IWidget
     CSE_INLINE ResourceWindow(GuiContext* context): IWidget(context)
     {
         m_IconImage = LoadTexture("Resources/Icons/asset.png");
-        m_Icon = (ImTextureID)&m_IconImage;
+
     }
 
     CSE_INLINE void OnShow(GuiContext* context) override
@@ -24,6 +26,12 @@ struct ResourceWindow : IWidget
                 context->AssetView([&] (auto* asset)
                     {
                         {
+                            //CSE_ERROR("RESOUCE\n");
+                            //m_IconImage = LoadTexture(asset->Source.c_str());
+                            /*if(asset)
+                                m_Icon = (ImTextureID)&asset->Data;
+                            else*/
+                                m_Icon = (ImTextureID)&m_IconImage;
                             // show asset icon
                             bool iSClicked = ImGui::ImageButtonEx(asset->UID,
                                 m_Icon, ImVec2(ASSET_SIZE, ASSET_SIZE), ImVec2(0, 1),
@@ -41,5 +49,6 @@ struct ResourceWindow : IWidget
     private:
     Texture2D m_IconImage;
     ImTextureID m_Icon;
+    std::string file;
     AssetID m_Selected;
 };

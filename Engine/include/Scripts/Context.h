@@ -1,6 +1,7 @@
 #pragma once
 #include "Window/Window.h"
 #include "Auxiliaries/ECS.h"
+#include "raylib.h"
 
 namespace CSE
 {
@@ -27,11 +28,25 @@ namespace CSE
 
             // add vec3 data type
             m_Lua.new_usertype<Vector3>("Vec3",
-                sol::constructors<Vector3(), Vector3(float, float, float)>(),
-                "x", &Vector3::x,
-                "y", &Vector3::y,
+               	sol::call_constructor, sol::factories(
+              		[](){ return Vector3{}; },
+              		[](float x, float y, float z){ return Vector3{x,y,z}; }
+               	),
+               	"x", &Vector3::x,
+               	"y", &Vector3::y,
                 "z", &Vector3::z
-            );
+                );
+
+            // add vec2 data type
+            m_Lua.new_usertype<Vector2>("Vec2",
+               	sol::call_constructor, sol::factories(
+              		[](){ return Vector2{}; },
+              		[](float x, float y){ return Vector2{x,y}; }
+               	),
+               	"x", &Vector2::x,
+               	"y", &Vector2::y
+                );
+
 
             // register window inputs callbacks
             SetApiFunctions(scene, window);
@@ -43,7 +58,7 @@ namespace CSE
             // check if handle is correct and has a constructor
             if (!m_Lua[name].valid() && !m_Lua[name]["Constructor"].valid())
             {
-                CSE_ERROR("failed to create script: invalid script name!");
+                CSE_ERROR("failed to create script: invalid script name!\n");
                 return false;
             }
 
@@ -56,7 +71,7 @@ namespace CSE
                 // handle failure
                 sol::error error = object;
                 sol::call_status status = object.status();
-                CSE_ERROR("failed to create script: {}", error.what());
+                CSE_ERROR("failed to create script: {}\n", error.what());
                 return false;
             }
 
@@ -81,14 +96,14 @@ namespace CSE
             // check if modules are loaded
             if(!m_Lua["Initializer"].valid())
             {
-                CSE_ERROR("failed to load script! core not initialized!");
+                CSE_ERROR("failed to load script! core not initialized!\n");
                 return "";
             }
 
             // check if script file exits
             if(!std::filesystem::exists(path))
             {
-                CSE_ERROR("failed to load script: invalid file path!");
+                CSE_ERROR("failed to load script: invalid file path!\n");
                 return "";
             }
 
@@ -105,12 +120,14 @@ namespace CSE
             // api function to get entity transform
             m_Lua.set_function("ApiGetTransform", [this, scene] (EntityID entity)
             {
+                CSE_ERROR("TransformAPI\n");
                 return std::ref(scene->get<TransformComponent>(entity).Transform);
             });
 
             // api function to destroy entity
             m_Lua.set_function("ApiDestroy", [this, scene] (EntityID entity)
                 {
+                    CSE_ERROR("APIDESTROY\n");
                     // return if entity is dead!
                     if(scene->valid(entity) == false) { return; }
 
@@ -124,9 +141,26 @@ namespace CSE
                     // destroy entity from scene
                     scene->destroy(entity);
                 });
+
+            // api function to check if mouse down
+            m_Lua.set_function("ApiMouseDown", [this, window] (int32_t button)
+            {
+                return window->IsMouse(button);
+            });
+
+            // api function to check if key pressed
+            m_Lua.set_function("ApiKeyDown", [this, window] (int32_t key)
+            {
+                return window->IsKey(key);
+            });
+
+            m_Lua["ApiTest"] = [this, window](int32_t key){CSE_ERROR("just a test\n"); };
         }
 
       private:
+        CSE_INLINE static void ApiTest(){
+            CSE_ERROR("just a test\n");
+        }
         sol::state m_Lua;
     };
 }

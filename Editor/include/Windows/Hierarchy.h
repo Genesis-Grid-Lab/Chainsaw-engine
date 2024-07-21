@@ -1,5 +1,6 @@
 #pragma once
 #include "Auxiliaries/ECS.h"
+#include "Common/Core.h"
 #include "Context/Context.h"
 #include "Vendors/FA.h"
 #include "Vendors/imgui/imgui.h"
@@ -70,7 +71,12 @@ struct HierarchyWindow : IWidget
                             }
                             if(ImGui::MenuItem(ICON_FA_FORWARD, " Add Sprite"))
                             {
-                                entity.template Attach<SpriteComponent>();
+                                auto spriteAsset = context->GetContext()->Assets->AddTexture(RandomU64(), "Resources/Ship.png");
+                                entity.template Attach<SpriteComponent>().Sprite.Data = spriteAsset->Data;
+                                entity.template Attach<SpriteComponent>().Sprite.Name = spriteAsset->Name;
+                                entity.template Attach<SpriteComponent>().Sprite.Source = spriteAsset->Source;
+                                entity.template Attach<SpriteComponent>().Sprite.UID = spriteAsset->UID;
+
                             }
                             if(ImGui::MenuItem(ICON_FA_FORWARD, " Add Transform"))
                             {
@@ -81,6 +87,10 @@ struct HierarchyWindow : IWidget
                         if(ImGui::Selectable(ICON_FA_RECYCLE "\tDelete"))
                         {
 					       entity.Destroy();
+							if(entity.template Has<SpriteComponent>())
+							{
+							    CSE_ERROR("DELETE\n");
+							}
                         }
                         ImGui::EndPopup();
                     }

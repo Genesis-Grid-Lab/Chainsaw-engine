@@ -15,6 +15,7 @@ target_compile_definitions(${PROJECT_NAME} PUBLIC
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_SOURCE_DIR}/vendor/raylib/src
+    ${CMAKE_SOURCE_DIR}/vendor/raylib/src/external/glfw/include
     ${CMAKE_SOURCE_DIR}/vendor/raylib-cpp/include
     ${CMAKE_SOURCE_DIR}/vendor/entt/src
     ${CMAKE_SOURCE_DIR}/vendor/yaml/include

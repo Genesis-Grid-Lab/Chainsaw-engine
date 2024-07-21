@@ -1,15 +1,15 @@
 -- define module table
-local ChainSawInput             = {}
+local ChainSawInput = {}
 
 -- check mouse input
---function ChainSawInput.IsMouse(button)
---return ApiMouseDown(button)
---end
+function ChainSawInput.IsMouse(button)
+    return ApiMouseDown(button)
+end
 
 -- check key input
---function ChainSawInput.IsKey(key)
---  return ApiKeyDown(key)
---end
+function ChainSawInput.IsKey(key)
+    return ApiKeyDown(key)
+end
 
 -- mouse input codes
 ChainSawInput.MOUSE_LEFT        = 0

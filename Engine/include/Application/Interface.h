@@ -143,6 +143,8 @@ namespace CSE {
             //return m_Context->Renderer->GetFrame();
             return m_Context->Renderer->ViewTexture;
         }
+
+        CSE_INLINE AppContext* GetContext() { return m_Context;}
       protected:
         CSE_INLINE virtual void OnUpdate() {}
         CSE_INLINE virtual void OnStart() {}

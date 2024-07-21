@@ -48,6 +48,7 @@ namespace CSE
         // callback to update script
         CSE_INLINE void OnUpdate(float dt)
         {
+            //CSE_ERROR("UPDATE1\n");
             if(m_Handle.valid())
             {
                 m_Handle["OnUpdate"](m_Handle, dt);
@@ -57,6 +58,7 @@ namespace CSE
         // callback to destroy entity
         CSE_INLINE void OnDestroy()
         {
+
             if(m_Handle.valid())
             {
                 m_Handle["OnDestroy"](m_Handle);

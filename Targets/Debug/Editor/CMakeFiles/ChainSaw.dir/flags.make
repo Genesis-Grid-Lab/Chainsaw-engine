@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCSE_ENABLE_LOG -DGEN_EXPORT -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DYAML_CPP_STATIC_DEFINE
 
-CXX_INCLUDES = -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -isystem /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include
+CXX_INCLUDES = -I/home/nesmy/Playground/Chainsaw-engine/Editor/include -I/home/nesmy/Playground/Chainsaw-engine/Engine/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib/src/external/glfw/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/raylib-cpp/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/entt/src -I/home/nesmy/Playground/Chainsaw-engine/vendor/yaml/include -I/home/nesmy/Playground/Chainsaw-engine/vendor/lua/lua-5.4.6/include -isystem /home/nesmy/Playground/Chainsaw-engine/vendor/sol2/include
 
 CXX_FLAGS = -g -std=gnu++17
 

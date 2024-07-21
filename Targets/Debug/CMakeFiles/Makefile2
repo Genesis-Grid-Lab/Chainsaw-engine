@@ -384,7 +384,7 @@ vendor/raylib/raylib/CMakeFiles/raylib.dir/all: vendor/raylib/raylib/external/gl
 
 # Build rule for subdir invocation for target.
 vendor/raylib/raylib/CMakeFiles/raylib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/raylib/raylib/CMakeFiles/raylib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 0
 .PHONY : vendor/raylib/raylib/CMakeFiles/raylib.dir/rule
@@ -405,12 +405,12 @@ vendor/raylib/raylib/CMakeFiles/raylib.dir/clean:
 vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/build.make vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/build.make vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target glfw"
 .PHONY : vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 0
 .PHONY : vendor/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/rule
@@ -1289,12 +1289,12 @@ vendor/yaml/util/CMakeFiles/yaml-cpp-read.dir/clean:
 vendor/lua/lua-5.4.6/CMakeFiles/lua_shared.dir/all:
 	$(MAKE) $(MAKESILENT) -f vendor/lua/lua-5.4.6/CMakeFiles/lua_shared.dir/build.make vendor/lua/lua-5.4.6/CMakeFiles/lua_shared.dir/depend
 	$(MAKE) $(MAKESILENT) -f vendor/lua/lua-5.4.6/CMakeFiles/lua_shared.dir/build.make vendor/lua/lua-5.4.6/CMakeFiles/lua_shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target lua_shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target lua_shared"
 .PHONY : vendor/lua/lua-5.4.6/CMakeFiles/lua_shared.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/lua/lua-5.4.6/CMakeFiles/lua_shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/lua/lua-5.4.6/CMakeFiles/lua_shared.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 0
 .PHONY : vendor/lua/lua-5.4.6/CMakeFiles/lua_shared.dir/rule
@@ -1367,12 +1367,12 @@ vendor/lua/lua-5.4.6/CMakeFiles/luac.dir/clean:
 Engine/CMakeFiles/Engine.dir/all:
 	$(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=6,7 "Built target Engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=7 "Built target Engine"
 .PHONY : Engine/CMakeFiles/Engine.dir/all
 
 # Build rule for subdir invocation for target.
 Engine/CMakeFiles/Engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/CMakeFiles/Engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 0
 .PHONY : Engine/CMakeFiles/Engine.dir/rule
@@ -1397,12 +1397,12 @@ Editor/CMakeFiles/ChainSaw.dir/all: vendor/lua/lua-5.4.6/CMakeFiles/lua_static.d
 Editor/CMakeFiles/ChainSaw.dir/all: Engine/CMakeFiles/Engine.dir/all
 	$(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/depend
 	$(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/ChainSaw.dir/build.make Editor/CMakeFiles/ChainSaw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target ChainSaw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ChainSaw"
 .PHONY : Editor/CMakeFiles/ChainSaw.dir/all
 
 # Build rule for subdir invocation for target.
 Editor/CMakeFiles/ChainSaw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 75
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 76
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/CMakeFiles/ChainSaw.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nesmy/Playground/Chainsaw-engine/Targets/Debug/CMakeFiles 0
 .PHONY : Editor/CMakeFiles/ChainSaw.dir/rule

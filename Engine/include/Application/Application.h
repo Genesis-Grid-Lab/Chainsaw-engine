@@ -67,9 +67,48 @@ namespace CSE {
         {
             //attach window resize event callback
             AttachCallback<WindowResizeEvent>([this] (auto e)
-                {
+            {
+                // resire renderer frame buffer
+                //m_Context->Renderer->Resize(e.Width, e.Height);
 
+                // call scripts resize function
+                EnttView<Entity, ScriptComponent>([e]
+                (auto entity, auto& script)
+                {
+                    if(script.Instance)
+                    {
+                        script.Instance->OnResize(e.Width, e.Height);
+                    }
                 });
+            });
+
+            // register mouse down callback
+            AttachCallback<MouseDownEvent>([this] (auto e)
+            {
+                // call scripts mouse down callback
+                EnttView<Entity, ScriptComponent>([e]
+                (auto entity, auto& script)
+                {
+                    if(script.Instance)
+                    {
+                        script.Instance->OnMouseDown(e.Button);
+                    }
+                });
+            });
+
+            // register key down callback
+            AttachCallback<KeyPressEvent>([this] (auto e)
+            {
+                // call scripts mouse down callback
+                EnttView<Entity, ScriptComponent>([e]
+                (auto entity, auto& script)
+                {
+                    if(script.Instance)
+                    {
+                        script.Instance->OnKeyDown(e.Key);
+                    }
+                });
+            });
         }
 
         // computes frame delta time value
@@ -83,7 +122,7 @@ namespace CSE {
         {
             // load assets
             auto spriteAsset = m_Context->Assets->AddTexture(RandomU64(), "Resources/Ship.png");
-            auto spriteScript = m_Context->Assets->AddScript(RandomU64(), "Resource/Scripts/TestScipt.lua");
+            auto spriteScript = m_Context->Assets->AddScript(RandomU64(), "Resources/Scripts/TestScript.lua");
             // create scene camera
             auto camera = CreateEntt<Entity>();
             camera.Attach<InfoComponent>().Name = "Camera";
@@ -95,20 +134,28 @@ namespace CSE {
             auto sprite = CreateEntt<Entity>();
             sprite.Attach<InfoComponent>().Name = "Sprite";
             sprite.Attach<TransformComponent>();
-            sprite.Attach<SpriteComponent>().Sprite = spriteAsset->UID;
+            sprite.Attach<SpriteComponent>().Sprite.Data = spriteAsset->Data;
+            sprite.Attach<SpriteComponent>().Sprite.Name = spriteAsset->Name;
+            sprite.Attach<SpriteComponent>().Sprite.Source = spriteAsset->Source;
+            sprite.Attach<SpriteComponent>().Sprite.UID = spriteAsset->UID;
             sprite.Attach<ScriptComponent>().Script = spriteScript->UID;
+            //sprite.Erease<TransformComponent>();
         }
 
         // update
         CSE_INLINE void UpdateScene()
         {
-
+            // update script instances
+            EnttView<Entity, ScriptComponent>([this] (auto entity, auto&script)
+                {
+                    script.Instance->OnUpdate(GetFrameTime());
+                });
         }
 
         // render
         CSE_INLINE void RenderScene()
         {
-            DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
+            //DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
             // set camera
             EnttView<Entity, CameraComponent>([this] (auto entity, auto& comp)
                 {
@@ -127,7 +174,7 @@ namespace CSE {
                 {
                     //retrieve assets
                     //auto& transform = entity.template Get<TransformComponent>().Transform;
-                    auto& Sprite = m_Context->Assets->Get<TextureAsset>(comp.Sprite);
+                    auto& Sprite = m_Context->Assets->Get<TextureAsset>(comp.Sprite.UID);
                     auto& transform = entity.template Get<TransformComponent>().Transform;
                     comp.Position.Translate.x = transform.Translate.x;
 
@@ -145,6 +192,15 @@ namespace CSE {
         {
             // create scene entities
             CreateEntities();
+
+            //creates and start scripts
+            EnttView<Entity, ScriptComponent>([this] (auto entity, auto& comp)
+                {
+                    auto& script = m_Context->Assets->Get<ScriptAsset>(comp.Script);
+                    auto name = m_Context->Scripts->LoadScript(script.Source);
+                    m_Context->Scripts->AttachScript(entity, name);
+                    comp.Source = script.Source;
+                });
         }
     };
 }
