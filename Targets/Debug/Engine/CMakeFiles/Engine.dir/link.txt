@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libEngine.so -o ../bin/libEngine.so CMakeFiles/Engine.dir/src/ChainSaw.cpp.o   -L/home/nesmy/Playground/Chainsaw-engine/Engine/raylib  -L/home/nesmy/Playground/Chainsaw-engine/Engine/yaml-cpp  -L/home/nesmy/Playground/Chainsaw-engine/Engine/lua_static  -L/home/nesmy/Playground/Chainsaw-engine/Engine/sol2
