@@ -30,67 +30,53 @@ struct ViewportWindow : IWidget
 
 				if(ImGui::IsWindowHovered())
 				{
-					// handle zoom in/out
-					if(io.MouseWheel != 0)
+                    // handle zoom in/out
+					if(io.MouseWheel >= 0)
 					{
 						float sensibility = 50;
 
-						context->EnttView<Entity, CameraComponent>([&] (auto entity, auto& comp)
+						context->EnttView<Entity, MainCamera2DComponent>([&] (auto entity, auto& comp)
 						{
 							auto& transform = entity.template Get<TransformComponent>().Transform;
 							transform.Translate.z -= (io.MouseWheel * io.DeltaTime * sensibility);
-							});
+							//comp.Camera.zoom -= (io.MouseWheel * io.DeltaTime * sensibility);
+						});
 					}
 
+					bool selected = false;
 					// handle dragging
 					if(ImGui::IsMouseDragging(ImGuiMouseButton_Left))
 					{
-						float sensibility = 10;
+						float sensibility = 50;
 
-						context->EnttView<Entity, CameraComponent>([&] (auto entity, auto& comp)
+						context->EnttView<Entity, MainCamera2DComponent>([&] (auto entity, auto& comp)
 						{
 							auto& transform = entity.template Get<TransformComponent>().Transform;
-							transform.Rotation.x += (io.MouseDelta.y * io.DeltaTime * sensibility);
-							transform.Rotation.y += (io.MouseDelta.x * io.DeltaTime * sensibility);
-							});
-                        }
-
-					if(ImGui::IsMouseDragging(ImGuiMouseButton_Right) && ImGui::IsKeyPressed(ImGuiKey_D))
-					{
-						context->EnttView<Entity, CameraComponent>([&] (auto entity, auto& comp)
-						{
-							auto& transform = entity.template Get<TransformComponent>().Transform;
-							transform.Translate.x += 10;
-							});
+							if(selected == false)
+							{
+							    transform.Translate.x += (io.MouseDelta.x * io.DeltaTime * sensibility);
+								transform.Translate.y += (io.MouseDelta.y * io.DeltaTime * sensibility);
+							}
+						});
 					}
 
-					if(ImGui::IsMouseDragging(ImGuiMouseButton_Right) && ImGui::IsKeyPressed(ImGuiKey_A))
+					context->EnttView<Entity, SpriteComponent>([&] (auto entity, auto comp)
 					{
-						context->EnttView<Entity, CameraComponent>([&] (auto entity, auto& comp)
-						{
-							auto& transform = entity.template Get<TransformComponent>().Transform;
-							transform.Translate.x -= 10;
-							});
-					}
+					    auto& transform = entity.template Get<TransformComponent>().Transform;
+						Vector2 point = {io.MousePos.x, io.MousePos.y};
 
-					if(ImGui::IsMouseDragging(ImGuiMouseButton_Right) && ImGui::IsKeyPressed(ImGuiKey_W))
-					{
-						context->EnttView<Entity, CameraComponent>([&] (auto entity, auto& comp)
-						{
-							auto& transform = entity.template Get<TransformComponent>().Transform;
-							transform.Translate.z -= 10;
-							});
-					}
+						// if(CheckCollisionPointRec(point, comp.Source))
+						// {
+						//     selected = true;
+						//     transform.Translate.x = GetMousePosition().x;
+						// 	transform.Translate.y = GetMousePosition().y;
+						// 	CSE_ERROR("Herse\n");
+						// }
+						// else {
+						//   selected = false;
+						// }
 
-					if(ImGui::IsMouseDragging(ImGuiMouseButton_Right) && ImGui::IsKeyPressed(ImGuiKey_S))
-					{
-						context->EnttView<Entity, CameraComponent>([&] (auto entity, auto& comp)
-						{
-							auto& transform = entity.template Get<TransformComponent>().Transform;
-							transform.Translate.z += 10;
-							});
-					}
-
+					});
 				}
 			}
 			ImGui::EndChild();

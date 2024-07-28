@@ -26,6 +26,13 @@ namespace CSE
         Camera2D Camera = {0};
     };
 
+    struct MainCamera2DComponent
+    {
+        CSE_INLINE MainCamera2DComponent(const MainCamera2DComponent&) = default;
+        CSE_INLINE MainCamera2DComponent() = default;
+        Camera2D Camera = {0};
+    };
+
     // script component
     struct ScriptComponent
     {
@@ -42,7 +49,8 @@ namespace CSE
         CSE_INLINE SpriteComponent(const SpriteComponent&) = default;
         CSE_INLINE SpriteComponent() = default;
         TextureAsset Sprite;
-        Transform3D Position;
+        Rectangle Source;
+        Rectangle Dest;
     };
 
     // common component

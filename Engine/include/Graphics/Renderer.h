@@ -11,6 +11,7 @@ namespace CSE {
         CSE_INLINE GraphicsRenderer()
         {
             ViewTexture = LoadRenderTexture(GetScreenWidth(), GetScreenHeight());
+            PlayTexture = LoadRenderTexture(GetScreenWidth(), GetScreenHeight());
         }
 
         CSE_INLINE void BeginDraw()
@@ -21,10 +22,11 @@ namespace CSE {
             if(IsWindowResized())
             {
                 UnloadRenderTexture(ViewTexture);
-                ViewTexture = LoadRenderTexture(GetScreenWidth(), GetScreenHeight());;
+                ViewTexture = LoadRenderTexture(GetScreenWidth(), GetScreenHeight());
+                UnloadRenderTexture(PlayTexture);
+                PlayTexture = LoadRenderTexture(GetScreenWidth(), GetScreenHeight());;
             }
-            BeginTextureMode(ViewTexture);
-            ClearBackground(SKYBLUE);
+
         }
 
         CSE_INLINE void EndDraw()
@@ -54,6 +56,11 @@ namespace CSE {
 
         }
 
+        CSE_INLINE void SetMainCamera(Camera2D& camera, Transform3D& transform)
+        {
+
+        }
+
         CSE_INLINE void SetCamera2D(Camera2D& camera, Transform3D& transform)
         {
             Vector2 WorldPos = GetScreenToWorld2D(Vector2({(float)GetScreenWidth(), (float)GetScreenHeight()}), camera);
@@ -62,27 +69,45 @@ namespace CSE {
             //camera.target = WorldPos;
             camera.offset = (Vector2){SCRNWIDTH / 2.0f, SCRNHEIGHT / 2.0f};
             camera.rotation = 0.0f;
-            camera.zoom = 1.0f;
+            camera.zoom = transform.Translate.z;
 
             BeginMode2D(camera);
         }
 
-        CSE_INLINE void Draw2D(TextureAsset& sprite, Transform3D& transform)
+        CSE_INLINE void Draw2D(TextureAsset& sprite, Transform3D& transform, Rectangle Source, Rectangle Dest)
         {
-            DrawTexture(sprite.Data, transform.Translate.x, transform.Translate.y, WHITE);
+            Vector2 center = { static_cast<float>(sprite.Data.width / 2.0), static_cast<float>(sprite.Data.height / 2.0) };
+            Source.x = 0.0f;
+            Source.y = 0.0f;
+            Source.width = sprite.Data.width;
+            Source.height = sprite.Data.height;
+            DrawTextureRec(sprite.Data, Source, Vector2({transform.Translate.x, transform.Translate.y}), WHITE);
+            //DrawRectangleRec(Source, GREEN);
+
+            Dest.x = GetScreenWidth();
+            Dest.y = GetScreenHeight();
+            Dest.width = Source.width;
+            Dest.height = Source.height;
+
+            //DrawTexturePro(sprite.Data, Source, Dest, center, transform.Rotation.x, WHITE);
         }
 
         CSE_INLINE RenderTexture &GetFrame(){
             return ViewTexture;
         }
 
+        CSE_INLINE RenderTexture &GetPlayFrame(){
+            return PlayTexture;
+        }
+
         CSE_INLINE void ShowFrame(bool show){
             if(show){
-                DrawTexturePro(ViewTexture.texture, (Rectangle){0, SCRNHEIGHT, SCRNWIDTH, -SCRNHEIGHT}, (Rectangle){0, 0, SCRNWIDTH, SCRNHEIGHT}, (Vector2){0, 0}, 0, WHITE);
+                DrawTexturePro(PlayTexture.texture, (Rectangle){0, SCRNHEIGHT, SCRNWIDTH, -SCRNHEIGHT}, (Rectangle){0, 0, SCRNWIDTH, SCRNHEIGHT}, (Vector2){0, 0}, 0, WHITE);
             }
         }
 
         RenderTexture ViewTexture;
+        RenderTexture PlayTexture;
         private:
         Camera3D camera = {0};
     };

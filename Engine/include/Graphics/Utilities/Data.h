@@ -10,7 +10,7 @@ namespace CSE {
 
       //CSE_INLINE matrux
 
-      Vector3 Translate = Vector3({0, 0, 0});
+      Vector3 Translate = Vector3({0, 0, 1});
       Vector3 Rotation = Vector3({0, 0, 0});
       Vector3 Scale = Vector3({0, 0, 0});
     };

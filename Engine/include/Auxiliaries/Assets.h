@@ -32,11 +32,12 @@ namespace CSE {
 
         //asset type
         AssetType Type;
+        //yo change
+        Texture2D Data;
     };
 
     struct TextureAsset : Asset
     {
-        Texture2D Data;
     };
 
     struct SceneAsset : Asset
@@ -69,6 +70,14 @@ namespace CSE {
             auto asset = std::make_shared<TextureAsset>();
             asset->Data = LoadTexture(source.c_str());
             asset->Type = AssetType::TEXTURE;
+
+            // View([&](auto assets)
+            //     {
+            //         if(assets->Source != source)
+            //             return asset;
+            //         else
+            //             return assets;
+            //     });
             Add(uid, source, asset);
 
             return asset;

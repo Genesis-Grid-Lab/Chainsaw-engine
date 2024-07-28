@@ -43,6 +43,7 @@ struct SpriteControl : IControl<SpriteComponent>
                       //}
                     //  });
         }
+
         //InputText("", data.Name.data(), "Untitled", 64);
 
     }

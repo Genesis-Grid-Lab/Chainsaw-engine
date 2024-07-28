@@ -12,8 +12,11 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 
 # link libraries
 target_link_libraries(${PROJECT_NAME} PRIVATE
-    Engine
+    ChainSaw
     raylib
+    yaml-cpp
+    lua_static
+    sol2
 )
 
 

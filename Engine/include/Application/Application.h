@@ -123,6 +123,14 @@ namespace CSE {
             // load assets
             auto spriteAsset = m_Context->Assets->AddTexture(RandomU64(), "Resources/Ship.png");
             auto spriteScript = m_Context->Assets->AddScript(RandomU64(), "Resources/Scripts/TestScript.lua");
+
+            // create scene camera
+            auto cameraMain = CreateEntt<Entity>();
+            cameraMain.Attach<InfoComponent>().Name = "CameraMain";
+            cameraMain.Attach<TransformComponent>();
+            //camera.Attach<CameraComponent>();
+            cameraMain.Attach<MainCamera2DComponent>();
+
             // create scene camera
             auto camera = CreateEntt<Entity>();
             camera.Attach<InfoComponent>().Name = "Camera";
@@ -155,6 +163,32 @@ namespace CSE {
         // render
         CSE_INLINE void RenderScene()
         {
+            BeginTextureMode(m_Context->Renderer->ViewTexture);
+            ClearBackground(SKYBLUE);
+            //DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
+            // set camera
+
+            EnttView<Entity, MainCamera2DComponent>([this] (auto entity, auto& comp)
+                {
+                    auto& transform = entity.template Get<TransformComponent>().Transform;
+                    m_Context->Renderer->SetCamera2D(comp.Camera, transform);
+                });
+
+            // render sprites
+            EnttView<Entity, SpriteComponent>([this] (auto entity, auto& comp)
+                {
+                    //retrieve assets
+                    //auto& transform = entity.template Get<TransformComponent>().Transform;
+                    auto& Sprite = m_Context->Assets->Get<TextureAsset>(comp.Sprite.UID);
+                    auto& transform = entity.template Get<TransformComponent>().Transform;
+                    //comp.Position.Translate.x = transform.Translate.x;
+
+                    //render sprite
+                    m_Context->Renderer->Draw2D(Sprite, transform, comp.Source, comp.Dest);
+                });
+            m_Context->Renderer->EndMode();
+            BeginTextureMode(m_Context->Renderer->PlayTexture);
+            ClearBackground(RED);
             //DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
             // set camera
             EnttView<Entity, CameraComponent>([this] (auto entity, auto& comp)
@@ -176,10 +210,10 @@ namespace CSE {
                     //auto& transform = entity.template Get<TransformComponent>().Transform;
                     auto& Sprite = m_Context->Assets->Get<TextureAsset>(comp.Sprite.UID);
                     auto& transform = entity.template Get<TransformComponent>().Transform;
-                    comp.Position.Translate.x = transform.Translate.x;
+                    //comp.Position.Translate.x = transform.Translate.x;
 
                     //render sprite
-                    m_Context->Renderer->Draw2D(Sprite, transform);
+                    m_Context->Renderer->Draw2D(Sprite, transform, comp.Source, comp.Dest);
                 });
             //DrawTexture(Texture2D texture, int posX, int posY, Color tint)
             //DrawCube(Vector3({0,0,0}), 2.0f, 2.0f, 2.0f, RED);

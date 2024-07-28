@@ -1,6 +1,7 @@
 #pragma once
 #include "Auxiliaries/ECS.h"
 #include "Context.h"
+#include "raylib.h"
 
 namespace CSE {
     class AppInterface
@@ -142,6 +143,11 @@ namespace CSE {
         {
             //return m_Context->Renderer->GetFrame();
             return m_Context->Renderer->ViewTexture;
+        }
+
+        CSE_INLINE RenderTexture &GetPlayFrame()
+        {
+            return m_Context->Renderer->PlayTexture;
         }
 
         CSE_INLINE AppContext* GetContext() { return m_Context;}
