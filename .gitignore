@@ -1,5 +1,8 @@
 Targets/
 Game/
+.cache/
+.vscode/
+compile_commands.json
 
 # Prerequisites
 *.d
