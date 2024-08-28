@@ -31,7 +31,7 @@ struct ViewportWindow : IWidget
 				if(ImGui::IsWindowHovered())
 				{
                     // handle zoom in/out
-					if(io.MouseWheel >= 0)
+					if(io.MouseWheel <= 1)
 					{
 						float sensibility = 50;
 

@@ -77,6 +77,7 @@ namespace CSE {
         CSE_INLINE void Draw2D(TextureAsset& sprite, Transform3D& transform, Rectangle Source, Rectangle Dest)
         {
             Vector2 center = { static_cast<float>(sprite.Data.width / 2.0), static_cast<float>(sprite.Data.height / 2.0) };
+            //sprite.Data.width = 500;
             Source.x = 0.0f;
             Source.y = 0.0f;
             Source.width = sprite.Data.width;

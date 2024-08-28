@@ -121,7 +121,11 @@ namespace CSE {
         CSE_INLINE void CreateEntities()
         {
             // load assets
-            auto spriteAsset = m_Context->Assets->AddTexture(RandomU64(), "Resources/Ship.png");
+            auto BallAsset = m_Context->Assets->AddTexture(RandomU64(), "Resources/Pong/Ball.png");
+            auto BoardAsset = m_Context->Assets->AddTexture(RandomU64(), "Resources/Pong/Board.png");
+            auto ComputerAsset = m_Context->Assets->AddTexture(RandomU64(), "Resources/Pong/Computer.png");
+            auto PlayerAsset = m_Context->Assets->AddTexture(RandomU64(), "Resources/Pong/Player.png");
+            auto ScoreAsset = m_Context->Assets->AddTexture(RandomU64(), "Resources/Pong/ScoreBar.png");
             auto spriteScript = m_Context->Assets->AddScript(RandomU64(), "Resources/Scripts/TestScript.lua");
 
             // create scene camera
@@ -132,22 +136,58 @@ namespace CSE {
             cameraMain.Attach<MainCamera2DComponent>();
 
             // create scene camera
-            auto camera = CreateEntt<Entity>();
-            camera.Attach<InfoComponent>().Name = "Camera";
-            camera.Attach<TransformComponent>();
-            //camera.Attach<CameraComponent>();
-            camera.Attach<Camera2DComponent>();
+            //auto camera = CreateEntt<Entity>();
+            // camera.Attach<InfoComponent>().Name = "Camera";
+            // camera.Attach<TransformComponent>();
+            // //camera.Attach<CameraComponent>();
+            // camera.Attach<Camera2DComponent>();
 
             // create sprite
-            auto sprite = CreateEntt<Entity>();
-            sprite.Attach<InfoComponent>().Name = "Sprite";
-            sprite.Attach<TransformComponent>();
-            sprite.Attach<SpriteComponent>().Sprite.Data = spriteAsset->Data;
-            sprite.Attach<SpriteComponent>().Sprite.Name = spriteAsset->Name;
-            sprite.Attach<SpriteComponent>().Sprite.Source = spriteAsset->Source;
-            sprite.Attach<SpriteComponent>().Sprite.UID = spriteAsset->UID;
-            sprite.Attach<ScriptComponent>().Script = spriteScript->UID;
-            //sprite.Erease<TransformComponent>();
+            auto Ball = CreateEntt<Entity>();
+            Ball.Attach<InfoComponent>().Name = "Ball";
+            auto& BallTrans = Ball.Attach<TransformComponent>().Transform;
+            Ball.Attach<SpriteComponent>().Sprite.Data = BallAsset->Data;
+            Ball.Attach<SpriteComponent>().Sprite.Name = BallAsset->Name;
+            Ball.Attach<SpriteComponent>().Sprite.Source = BallAsset->Source;
+            Ball.Attach<SpriteComponent>().Sprite.UID = BallAsset->UID;
+            BallTrans.Translate.x = GetScreenWidth() /2 - BallAsset->Data.width / 2;
+            BallTrans.Translate.y = GetScreenHeight() / 2 - BallAsset->Data.height / 2;
+            //sprite.Attach<ScriptComponent>().Script = spriteScript->UID;
+
+            // create sprite
+            auto Player = CreateEntt<Entity>();
+            Player.Attach<InfoComponent>().Name = "Player";
+            auto& PlayerTrans = Player.Attach<TransformComponent>().Transform;
+            Player.Attach<SpriteComponent>().Sprite.Data = PlayerAsset->Data;
+            Player.Attach<SpriteComponent>().Sprite.Name = PlayerAsset->Name;
+            Player.Attach<SpriteComponent>().Sprite.Source = PlayerAsset->Source;
+            Player.Attach<SpriteComponent>().Sprite.UID = PlayerAsset->UID;
+            PlayerTrans.Translate.y = GetScreenHeight() / 2 - PlayerAsset->Data.height / 2;
+            //sprite.Attach<ScriptComponent>().Script = spriteScript->UID;
+
+            // create sprite
+            auto Computer = CreateEntt<Entity>();
+            Computer.Attach<InfoComponent>().Name = "Computer";
+            auto& CompTrans = Computer.Attach<TransformComponent>().Transform;
+            Computer.Attach<SpriteComponent>().Sprite.Data = ComputerAsset->Data;
+            Computer.Attach<SpriteComponent>().Sprite.Name = ComputerAsset->Name;
+            Computer.Attach<SpriteComponent>().Sprite.Source = ComputerAsset->Source;
+            Computer.Attach<SpriteComponent>().Sprite.UID = ComputerAsset->UID;
+            CompTrans.Translate.x = GetScreenWidth() - ComputerAsset->Data.width;
+            CompTrans.Translate.y = GetScreenHeight() / 2 - ComputerAsset->Data.height / 2;
+            //sprite.Attach<ScriptComponent>().Script = spriteScript->UID;
+
+            // create sprite
+            auto Board = CreateEntt<Entity>();
+            BoardAsset->Data.width = GetScreenWidth();
+            BoardAsset->Data.height = GetScreenHeight();
+            Board.Attach<InfoComponent>().Name = "Board";
+            Board.Attach<TransformComponent>();
+            Board.Attach<SpriteComponent>().Sprite.Data = BoardAsset->Data;
+            Board.Attach<SpriteComponent>().Sprite.Name = BoardAsset->Name;
+            Board.Attach<SpriteComponent>().Sprite.Source = BoardAsset->Source;
+            Board.Attach<SpriteComponent>().Sprite.UID = BoardAsset->UID;
+            //sprite.Attach<ScriptComponent>().Script = spriteScript->UID;
         }
 
         // update
